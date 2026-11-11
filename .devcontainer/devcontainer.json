@@ -1,0 +1,14 @@
+{
+  "name": "workshop-constrained",
+  "build": { "dockerfile": "Dockerfile", "context": ".." },
+  "remoteUser": "vscode",
+  "remoteEnv": {
+    "MODEL_DIR": "${containerWorkspaceFolder}/models/phi-3.5-cpu/cpu_and_mobile/cpu-int4-awq-block-128-acc-level-4"
+  },
+  "mounts": [
+    "source=workshop-cache,target=/home/vscode/.cache,type=volume"
+  ],
+  "customizations": {
+    "vscode": { "extensions": ["ms-python.python"] }
+  }
+}
