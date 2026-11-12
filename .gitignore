@@ -1,3 +1,15 @@
 models/
 corp.crt
 resultados_*.json
+.venv-olive/
+
+.venv-olive/
+.olive-cache/
+run-pass-output/
+logs/
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+
+cache_dir/
+!data/resultados_50.json

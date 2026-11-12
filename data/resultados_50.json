@@ -1,0 +1,2844 @@
+{
+  "A prompt": [
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 154,
+      "segundos": 24.105164766311646,
+      "errores_primer_intento": [],
+      "salidas": [
+        " {\n  \"entidad\": \"Margie's Travel\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2023-11-12\",\n  \"acciones\": [\"Revisar el procedimiento\", \"Formar al personal\"]\n}\n\nNota: La puntuación de riesgo \"ALTO\" y la puntuación de 85 están arbitrarias, ya que el documento original no proporciona datos numéricos específicos. En un escenario real, estas valores deberían basarse en criterios o algoritmos predefinidos."
+      ],
+      "id": "doc01",
+      "tipo": "fecha_variada"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 244,
+      "segundos": 31.834771394729614,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Woodgrove Bank\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-04-18\",\n  \"acciones\": [\n    \"Implementar controles de segregación de funciones\",\n    \"Aprobado por la dirección\",\n    \"Monitoreo regular de cumplimiento\"\n  ]\n}\n```\n\nEn este objeto JSON, he asumido que la puntuación de 85 es una evaluación numérica basada en el contexto del documento, que indica un alto riesgo debido a la falta de aplicación uniforme de los controles de segregación de funciones. Las acciones sugeridas están basadas en las recomendaciones implícitas en el documento. La fecha de revisión se extrae directamente del texto. El tipo de riesgo se elige como \"ALTO\" debido a la gravedad de la falta de cumplimiento."
+      ],
+      "id": "doc02",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 216,
+      "segundos": 27.560364723205566,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"VanArsdel\",\n  \"riesgo\": \"BAJO\",\n  \"puntuacion\": 80,\n  \"fecha_revision\": \"2026-10-12\",\n  \"acciones\": [\"Mantiene controles adecuados sobre la gestión de proveedores críticos\"]\n}\n```\n\nEn este objeto JSON, he hecho algunas suposiciones sobre los valores, ya que el documento original no proporciona una puntuación numérica específica o detalles sobre las acciones. La puntuación \"BAJO\" y el valor de 80 están arbitrarios y deben ser sustituidos por los datos reales de la evaluación de riesgo. La fecha de revisión se extrajo directamente del documento. Las acciones se han extraído como una lista de una sola acción basada en el texto proporcionado."
+      ],
+      "id": "doc03",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 154,
+      "segundos": 20.7016179561615,
+      "errores_primer_intento": [],
+      "salidas": [
+        " {\n  \"entidad\": \"Relecloud\",\n  \"riesgo\": \"BAJO\",\n  \"puntuacion\": 20,\n  \"fecha_revision\": \"2026-08-07\",\n  \"acciones\": [\"Designar responsable\", \"Fijar revisiones trimestrales\"]\n}\n\nNota: La puntuación se establece arbitrariamente en 20, ya que el documento original no proporciona una puntuación numérica específica. En un escenario real, esta puntuación debería basarse en criterios o métricas relevantes para la evaluación de riesgo."
+      ],
+      "id": "doc04",
+      "tipo": "fecha_variada"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 163,
+      "segundos": 21.505155324935913,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Blue Yonder Airlines\",\n  \"riesgo\": \"BAJO\",\n  \"puntuacion\": 20,\n  \"fecha_revision\": \"2026-12-05\",\n  \"acciones\": [\"Plan de remediación aprobado por la dirección\"]\n}\n```\n\nPor favor, ten en cuenta que la puntuación (20) y la clasificación de riesgo (\"BAJO\") son hipotéticas, ya que no se proporcionan datos numéricos específicos en el documento original. En un escenario real, estas valores deben extraerse de los datos relevantes del documento."
+      ],
+      "id": "doc05",
+      "tipo": "fecha_variada"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 112,
+      "segundos": 17.353434801101685,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Relecloud\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 90,\n  \"fecha_revision\": \"2026-03-05\",\n  \"acciones\": [\"Implementar controles de acceso más estrictos\", \"Mejorar el registro de actividades de tratamiento\", \"Monitorear continuamente la adherencia a los requisitos\"]\n}\n```"
+      ],
+      "id": "doc06",
+      "tipo": "alto_sin_acciones"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 148,
+      "segundos": 20.886852264404297,
+      "errores_primer_intento": [],
+      "salidas": [
+        " {\n  \"entidad\": \"Margie's Travel\",\n  \"riesgo\": \"MEDIO\",\n  \"puntuacion\": 50,\n  \"fecha_revision\": \"2023-03-09\",\n  \"acciones\": [\"Revisar el procedimiento\", \"Formar al personal\"]\n}\n\nNota: La puntuación y la clasificación de riesgo son hipotéticas, ya que no se proporcionan datos numéricos específicos en el documento. En un escenario real, estas valores deberían basarse en análisis o criterios específicos."
+      ],
+      "id": "doc07",
+      "tipo": "fecha_variada"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": false,
+      "valido": false,
+      "intentos": 1,
+      "tokens": 168,
+      "segundos": 22.57376480102539,
+      "errores_primer_intento": [
+        "extra_forbidden"
+      ],
+      "salidas": [
+        " {\"entidad\": \"Woodgrove, S.L.U.\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-07-09\", \"acciones\": [\"Revisar el procedimiento\", \"Formar al personal\"], \"required\": [\"entidad\", \"riesgo\", \"puntuacion\", \"fecha_revision\", \"acciones\"]}\n\nNota: La puntuación \"85\" es un valor arbitrario, ya que el documento original no proporciona una puntuación numérica específica. En un escenario real, esta puntuación debería basarse en criterios o datos relevantes proporcionados en el documento."
+      ],
+      "id": "doc08",
+      "tipo": "variante_entidad"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 114,
+      "segundos": 17.076555013656616,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Consolidated Messenger\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-02-05\",\n  \"acciones\": [\n    \"Implementar controles efectivos sobre la gestión de incidentes de seguridad.\",\n    \"Aprobar un plan de remediación por la dirección.\"\n  ]\n}\n```"
+      ],
+      "id": "doc09",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 233,
+      "segundos": 28.92564606666565,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Wingtip Toys\",\n  \"riesgo\": \"BAJO\",\n  \"puntuacion\": 20,\n  \"fecha_revision\": \"2026-01-24\",\n  \"acciones\": [\"Analizar documentación de gestión de proveedores críticos\", \"Incluir en base de datos de cumplimiento\", \"Monitorear para futuras revisiones\"]\n}\n```\n\nEn este ejemplo JSON, he hecho algunas suposiciones sobre los valores, ya que el documento original no proporciona datos específicos para la puntuación o las acciones detalladas. La puntuación y las acciones se han establecido en valores hipotéticos que cumplen con el formato y los tipos de datos requeridos por la instrucción. En un escenario real, estos valores deberían ser extraídos o calculados basándose en el contexto y los detalles proporcionados en el documento."
+      ],
+      "id": "doc10",
+      "tipo": "incompleto"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 220,
+      "segundos": 27.874483823776245,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Trey Research\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-06-22\",\n  \"acciones\": [\n    \"Designar responsable\",\n    \"Fijar revisiones trimestrales\"\n  ]\n}\n```\n\nEn este objeto JSON, he asumido una puntuación de 85 (entre 1 y 100) basada en la descripción del riesgo \"carece de controles efectivos\", lo que sugiere un alto nivel de riesgo. La puntuación exacta puede variar según la metodología específica utilizada para evaluar el riesgo, la cual no se proporciona en el documento. El objeto JSON cumple con el formato y los tipos de datos especificados en el JSON Schema proporcionado."
+      ],
+      "id": "doc11",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 292,
+      "segundos": 35.32822132110596,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"LUCERNE, S. A.\",\n  \"riesgo\": \"MEDIO\",\n  \"puntuacion\": 50,\n  \"fecha_revision\": \"2026-05-05\",\n  \"acciones\": [\n    \"revisar el procedimiento\",\n    \"formar al personal\"\n  ]\n}\n```\n\nEn este objeto JSON, he hecho algunas suposiciones sobre los valores ya que no se proporcionan en el documento original. La entidad \"LUCERNE, S. A.\" se ha asignado como tal, el riesgo \"MEDIO\" es una suposición basada en la descripción de retrasos puntuales, la puntuación de 50 es arbitraria dentro del rango de 1-100, la fecha de revisión \"2026-05-05\" se ha formateado como fecha, y las acciones \"revisar el procedimiento\" y \"formar al personal\" se han extraído directamente del texto. Para una evaluación precisa, estos valores deben ser determinados en función de los criterios específicos y la metodología utilizada para la evaluación de riesgo."
+      ],
+      "id": "doc12",
+      "tipo": "variante_entidad"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 128,
+      "segundos": 18.825465440750122,
+      "errores_primer_intento": [],
+      "salidas": [
+        " {\"entidad\": \"Bellows\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-12-19\", \"acciones\": [\"Revisar el procedimiento\", \"Formar al personal\"]}\n\nNota: La puntuación se ha estimado en base a la descripción del documento, ya que no se proporciona una puntuación exacta. En un escenario real, esta puntuación debería ser proporcionada por la información relevante del documento."
+      ],
+      "id": "doc13",
+      "tipo": "variante_entidad"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 112,
+      "segundos": 17.208999156951904,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Trey Research\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 90,\n  \"fecha_revision\": \"2026-06-02\",\n  \"acciones\": [\"Implementar requisitos de segregación de funciones\", \"Establecer controles efectivos sobre el registro de actividades de tratamiento\", \"Monitorear cumplimiento continuamente\"]\n}\n```"
+      ],
+      "id": "doc14",
+      "tipo": "alto_sin_acciones"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 222,
+      "segundos": 27.668030261993408,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Margie's Travel\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-05-28\",\n  \"acciones\": [\n    \"Revisar el procedimiento\",\n    \"Formar al personal\"\n  ]\n}\n```\n\nEn este objeto JSON, he asumido que la puntuación de 85 es una evaluación numérica basada en el contexto del documento, ya que no se proporciona una puntuación exacta. El riesgo se ha clasificado como \"ALTO\" debido a la mención de \"deficiencias graves\" en la gestión de proveedores críticos. Las acciones sugeridas se extraen directamente del texto del documento. La fecha de revisión se ha convertido en un formato de fecha según lo solicitado."
+      ],
+      "id": "doc15",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 90,
+      "segundos": 15.414323568344116,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Alpine Ski House\",\n  \"riesgo\": \"BAJO\",\n  \"puntuacion\": 1,\n  \"fecha_revision\": \"2026-03-07\",\n  \"acciones\": [\"No presenta incidencias relevantes en la prevención del blanqueo de capitales\"]\n}\n```"
+      ],
+      "id": "doc16",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 217,
+      "segundos": 27.290651321411133,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Coho Winery\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 90,\n  \"fecha_revision\": \"2026-11-05\",\n  \"acciones\": [\"Revisar el procedimiento\", \"Formar al personal\"]\n}\n```\n\nEste objeto JSON representa la evaluación de riesgo extraída del documento proporcionado, cumpliendo con el JSON Schema especificado. La entidad es \"Coho Winery\", clasificada como alto riesgo con una puntuación de 90 (suponiendo que la escala es de 1 a 100, donde 100 representa el riesgo más alto). La fecha de revisión es el 5 de noviembre de 2026, y las acciones recomendadas incluyen revisar el procedimiento y formar al personal."
+      ],
+      "id": "doc17",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 101,
+      "segundos": 15.287036418914795,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Wingtip Toys\",\n  \"riesgo\": \"BAJO\",\n  \"puntuacion\": 20,\n  \"fecha_revision\": \"2026-02-05\",\n  \"acciones\": [\"Cumple los requisitos de protección de datos personales\", \"Observaciones menores\", \"Revisión realizada\"]\n}\n```"
+      ],
+      "id": "doc18",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 350,
+      "segundos": 40.63791489601135,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"LITWARE, S. A.\",\n  \"riesgo\": \"BAJO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-10-21\",\n  \"acciones\": [\n    \"Designar responsable\",\n    \"Fijar revisiones trimestrales\"\n  ]\n}\n```\n\nEn este objeto JSON, se ha extraído la información relevante del documento de la siguiente manera:\n\n- `entidad`: \"LITWARE, S. A.\" - La empresa mencionada en la evaluación.\n- `riesgo`: \"BAJO\" - Dado que las observaciones son menores y no se mencionan problemas significativos, el riesgo se considera bajo.\n- `puntuacion`: 85 - Esta es una puntuación arbitraria asignada para representar la evaluación en una escala de 1 a 100. El documento no proporciona una puntuación exacta, por lo que he seleccionado un valor razonable dentro del rango permitido.\n- `fecha_revision`: \"2026-10-21\" - La fecha de la revisión mencionada en el documento.\n- `acciones`: [\"Designar responsable\", \"Fijar revisiones trimestrales\"] - Acciones recomendadas basadas en las observaciones realizadas durante la revisión.\n\nTenga en cuenta"
+      ],
+      "id": "doc19",
+      "tipo": "variante_entidad"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 127,
+      "segundos": 18.819209337234497,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Margie's Travel\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 95,\n  \"fecha_revision\": \"2026-02-05\",\n  \"acciones\": [\n    \"Revisar políticas de prevención del blanqueo de capitales\",\n    \"Mejorar la gestión de incidentes de seguridad\",\n    \"Implementar medidas correctivas urgentes\"\n  ]\n}\n```"
+      ],
+      "id": "doc20",
+      "tipo": "alto_sin_acciones"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 148,
+      "segundos": 22.806904315948486,
+      "errores_primer_intento": [],
+      "salidas": [
+        " {\n  \"entidad\": \"Fourth Coffee\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-08-27\",\n  \"acciones\": [\n    \"Designar responsable\",\n    \"Fijar revisiones trimestrales\"\n  ]\n}\n\nNota: La puntuación es arbitraria, ya que el documento no proporciona una puntuación numérica específica. En un escenario real, esta puntuación se determinaría basándose en criterios preestablecidos."
+      ],
+      "id": "doc21",
+      "tipo": "largo_ruidoso"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 93,
+      "segundos": 14.544591665267944,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"VanArsdel\",\n  \"riesgo\": \"BAJO\",\n  \"puntuacion\": 1,\n  \"fecha_revision\": \"2026-01-13\",\n  \"acciones\": [\"cumple los requisitos de la segregación de funciones\", \"observaciones menores\"]\n}\n```"
+      ],
+      "id": "doc22",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 208,
+      "segundos": 26.142553091049194,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Alpine Ski House\",\n  \"riesgo\": \"BAJO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-07-24\",\n  \"acciones\": [\"Mantiene controles adecuados\", \"Cumple con la normativa de protección de datos\", \"Revisión positiva\"]\n}\n```\n\nEn este ejemplo de respuesta JSON, he asumido que la puntuación es un valor arbitrario (85) ya que el documento original no proporciona una puntuación específica. Las acciones se extrajeron de la descripción general del documento, asumiendo que estas son las acciones realizadas. En un escenario real, la puntuación y las acciones deberían extraerse directamente de los datos proporcionados en el documento."
+      ],
+      "id": "doc23",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 207,
+      "segundos": 26.48656702041626,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Margie's Travel\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 80,\n  \"fecha_revision\": \"2023-04-01\",\n  \"acciones\": [\n    \"Designar responsable\",\n    \"Fijar revisiones trimestrales\"\n  ]\n}\n```\n\nNota: La puntuación de riesgo (`\"puntuacion\": 80`) es un valor arbitrario, ya que el documento original no proporciona una puntuación numérica específica. En un escenario real, esta puntuación se determinaría basándose en criterios preestablecidos. El `fecha_revision` también se ha establecido hipotéticamente como \"2023-04-01\" para fines ilustrativos."
+      ],
+      "id": "doc24",
+      "tipo": "incompleto"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 135,
+      "segundos": 19.150733709335327,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Woodgrove Bank\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-03-22\",\n  \"acciones\": [\n    \"Implementar un plan de remediación aprobado por la dirección\",\n    \"Mejorar los controles de la continuidad de negocio de manera uniforme\",\n    \"Monitorear y reportar regularmente la aplicación de los controles\"\n  ]\n}\n```"
+      ],
+      "id": "doc25",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 112,
+      "segundos": 17.08499526977539,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Lucerne Publishing\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 90,\n  \"fecha_revision\": \"2026-01-25\",\n  \"acciones\": [\"Implementar requisitos de segregación de funciones\", \"Mejorar gestión de proveedores críticos\", \"Inspeccionar y monitorear la situación regularmente\"]\n}\n```"
+      ],
+      "id": "doc26",
+      "tipo": "alto_sin_acciones"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 189,
+      "segundos": 26.534459114074707,
+      "errores_primer_intento": [],
+      "salidas": [
+        " {\n  \"entidad\": \"Bellows College\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-12-23\",\n  \"acciones\": [\n    \"Rotar las credenciales privilegiadas en 30 días\",\n    \"Revisar 42 expedientes seleccionados por muestreo aleatorio\",\n    \"Incluir colaboración del personal entrevistado\"\n  ]\n}\n\nNota: La puntuación es arbitraria en este ejemplo, ya que el documento no proporciona una puntuación numérica específica. En un escenario real, esta puntuación debería basarse en criterios predefinidos para evaluar el riesgo."
+      ],
+      "id": "doc27",
+      "tipo": "largo_ruidoso"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 254,
+      "segundos": 31.404534101486206,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Blue Yonder Airlines\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-10-09\",\n  \"acciones\": [\"Revisar el procedimiento\", \"Formar al personal\"]\n}\n```\n\nEste objeto JSON representa la evaluación de riesgo basada en la información proporcionada en el documento. La entidad es \"Blue Yonder Airlines\", clasificada como \"ALTO\" riesgo debido a la documentación incompleta sobre la segregación de funciones. La puntuación se establece en 85 (suponiendo que esta es una escala de 1-100), la fecha de revisión es el 9 de octubre de 2026, y las acciones recomendadas incluyen revisar el procedimiento y formar al personal. Los valores exactos para \"puntuacion\" y la estructura de la lista de acciones pueden variar según la información detallada no proporcionada en el documento."
+      ],
+      "id": "doc28",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 136,
+      "segundos": 19.283313989639282,
+      "errores_primer_intento": [],
+      "salidas": [
+        " {\n  \"entidad\": \"Blue Yonder Airlines\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-04-07\",\n  \"acciones\": [\"Rotar las credenciales privilegiadas en 30 días\"]\n}\n\nNota: La puntuación y la fecha de revisión son ejemplos basados en el contexto del documento. En un escenario real, estas valores deben ser determinadas por un análisis de riesgo específico."
+      ],
+      "id": "doc29",
+      "tipo": "fecha_variada"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 137,
+      "segundos": 19.398263216018677,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Woodgrove y sus sociedades dependientes\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-11-23\",\n  \"acciones\": [\n    \"Evaluar documentación completa sobre la protección de datos personales\",\n    \"Crear un plan de remediación aprobado por la dirección\",\n    \"Implementar medidas para mejorar la gestión de datos personales\"\n  ]\n}\n```"
+      ],
+      "id": "doc30",
+      "tipo": "variante_entidad"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 165,
+      "segundos": 24.395889043807983,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Contoso S.A.\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-08-08\",\n  \"acciones\": [\n    \"Designar responsable\",\n    \"Fijar revisiones trimestrales\"\n  ]\n}\n```\n\nNota: La puntuación se ha estimado en base a la descripción del documento, ya que no se proporciona una puntuación exacta. En un escenario real, esta puntuación debería ser determinada por un proceso de evaluación basado en criterios específicos."
+      ],
+      "id": "doc31",
+      "tipo": "largo_ruidoso"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 206,
+      "segundos": 28.770063877105713,
+      "errores_primer_intento": [],
+      "salidas": [
+        " {\n  \"entidad\": \"Adatum Corporation\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-01-19\",\n  \"acciones\": [\n    \"Aplicar de forma uniforme los controles de segregación de funciones\",\n    \"Desarrollar y aprobar un plan de remediación por la dirección\",\n    \"Monitorear la efectividad de los controles implementados\"\n  ]\n}\n\nNota: La puntuación de riesgo (85) es un valor arbitrario, ya que el documento original no proporciona una puntuación numérica específica. En un escenario real, esta puntuación se determinaría basándose en criterios preestablecidos y datos relevantes del contexto de la evaluación de riesgo."
+      ],
+      "id": "doc32",
+      "tipo": "largo_ruidoso"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 200,
+      "segundos": 27.790675401687622,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Contoso S.A.\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-07-23\",\n  \"acciones\": [\n    \"Exigir rotar las credenciales privilegiadas en 30 días\",\n    \"Reunión de cierre en las oficinas centrales con la dirección\",\n    \"Colaboración del personal entrevistado\"\n  ]\n}\n```\n\nNota: La puntuación de riesgo (85) es un valor arbitrario, ya que el documento original no proporciona una puntuación numérica específica. En un escenario real, esta puntuación se determinaría basándose en criterios específicos de evaluación de riesgo."
+      ],
+      "id": "doc33",
+      "tipo": "largo_ruidoso"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 98,
+      "segundos": 15.675215244293213,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"WOODGROVE, S. A.\",\n  \"riesgo\": \"BAJO\",\n  \"puntuacion\": 20,\n  \"fecha_revision\": \"2026-06-17\",\n  \"acciones\": [\n    \"Revisar el procedimiento\",\n    \"Formar al personal\"\n  ]\n}\n```"
+      ],
+      "id": "doc34",
+      "tipo": "variante_entidad"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 350,
+      "segundos": 40.68439269065857,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"VanArsdel\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 90,\n  \"fecha_revision\": \"2026-12-26\",\n  \"acciones\": [\"Requerir plan de remediación aprobado por la dirección\"]\n}\n```\n\nEn este objeto JSON, he hecho las siguientes suposiciones basadas en la información proporcionada:\n\n- `entidad`: \"VanArsdel\" es la entidad mencionada en el documento.\n- `riesgo`: \"ALTO\" se asigna porque el documento habla de \"deficiencias graves\", lo que sugiere un alto riesgo.\n- `puntuacion`: 90 es una puntuación arbitraria dentro del rango de 1 a 100, reflejando el alto riesgo.\n- `fecha_revision`: \"2026-12-26\" es la fecha proporcionada en el formato de fecha.\n- `acciones`: Un array con un único elemento, \"Requerir plan de remediación aprobado por la dirección\", que representa la acción necesaria en respuesta al alto riesgo.\n\nTenga en cuenta que la puntuación exacta y las acciones específicas no se proporcionan en el documento, por lo que se han elegido valores razonables para ilustrar cómo se podría estructurar"
+      ],
+      "id": "doc35",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 121,
+      "segundos": 17.12154769897461,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Woodgrove Bank\",\n  \"riesgo\": \"BAJO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-11-15\",\n  \"acciones\": [\n    \"Mantiene controles adecuados sobre la protección de datos personales\",\n    \"Revisión realizada\",\n    \"Cumple con los estándares de protección de datos\"\n  ]\n}\n```"
+      ],
+      "id": "doc36",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": false,
+      "valido": false,
+      "intentos": 1,
+      "tokens": 189,
+      "segundos": 24.690283060073853,
+      "errores_primer_intento": [
+        "extra_forbidden",
+        "extra_forbidden",
+        "extra_forbidden"
+      ],
+      "salidas": [
+        " {\"entidad\": \"Woodgrove Bank\", \"riesgo\": \"BAJO\", \"puntuacion\": 20, \"fecha_revision\": \"2026-12-05\", \"acciones\": [\"Recibir documentación\", \"Pendiente de análisis por el equipo de cumplimiento\"], \"required\": [\"entidad\", \"riesgo\", \"puntuacion\", \"fecha_revision\", \"acciones\"], \"title\": \"Evaluacion\", \"type\": \"object\"}\n\nNota: La puntuación se establece arbitrariamente en 20 ya que el documento no proporciona detalles específicos para calcular una puntuación de riesgo. En un escenario real, esta puntuación se determinaría basándose en criterios específicos de evaluación de riesgo."
+      ],
+      "id": "doc37",
+      "tipo": "incompleto"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 350,
+      "segundos": 40.77803874015808,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Lucerne\",\n  \"riesgo\": \"BAJO\",\n  \"puntuacion\": 80,\n  \"fecha_revision\": \"2026-09-18\",\n  \"acciones\": [\"Requerir plan de remediación aprobado por la dirección\"]\n}\n```\n\nEn este objeto JSON, he hecho las siguientes suposiciones basadas en la información proporcionada:\n\n- `entidad`: \"Lucerne\" es la entidad identificada en el documento.\n- `riesgo`: \"BAJO\" se asigna porque el documento indica que las observaciones son menores, lo que sugiere un bajo riesgo.\n- `puntuacion`: 80 es una puntuación arbitraria dentro del rango de 1-100, sugiriendo una evaluación positiva pero con áreas de mejora.\n- `fecha_revision`: \"2026-09-18\" es la fecha proporcionada en el documento.\n- `acciones`: Un array con una sola acción, \"Requerir plan de remediación aprobado por la dirección\", que es una acción sugerida en el documento.\n\nPor favor, ten en cuenta que la puntuación y las acciones específicas son hipotéticas y no se derivan directamente del texto, ya que no se proporcionan datos numéricos o detallados para la"
+      ],
+      "id": "doc38",
+      "tipo": "variante_entidad"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 278,
+      "segundos": 33.73249626159668,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Consolidated y sus sociedades dependientes\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-04-10\",\n  \"acciones\": [\n    \"Evaluar la gestión de proveedores críticos\",\n    \"Aprobar un plan de remediación por la dirección\"\n  ]\n}\n```\n\nEn este objeto JSON, la entidad es \"Consolidated y sus sociedades dependientes\", que se considera de alto riesgo debido a los retrasos en la gestión de proveedores críticos. La puntuación se establece en 85, lo que sugiere una evaluación significativa, aunque no se proporciona el método exacto de puntuación. La fecha de revisión es el 10 de abril de 2026. Las acciones recomendadas incluyen evaluar la gestión de proveedores críticos y aprobar un plan de remediación por la dirección. El objeto cumple con el JSON Schema especificado, con valores apropiados para cada propiedad."
+      ],
+      "id": "doc39",
+      "tipo": "variante_entidad"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 159,
+      "segundos": 21.42842721939087,
+      "errores_primer_intento": [],
+      "salidas": [
+        " {\n  \"entidad\": \"Trey Research\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 80,\n  \"fecha_revision\": \"2023-02-06\",\n  \"acciones\": [\"Desarrollar un plan de remediación\", \"Obtención de aprobación por la dirección\", \"Monitoreo continuo de la continuidad de negocio\"]\n}\n\nNota: La puntuación y la fecha de revisión son ejemplos basados en el contexto del documento. En un escenario real, estas valores deberían ser determinadas por un análisis de riesgo detallado."
+      ],
+      "id": "doc40",
+      "tipo": "fecha_variada"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 111,
+      "segundos": 16.884243726730347,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Fabrikam Ibérica S.L.\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 95,\n  \"fecha_revision\": \"2026-05-10\",\n  \"acciones\": [\"Mejora gestión de incidentes de seguridad\", \"Mejora continuidad de negocio\", \"Implementación de protocolos de seguridad\"]\n}\n```"
+      ],
+      "id": "doc41",
+      "tipo": "alto_sin_acciones"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 101,
+      "segundos": 16.92238140106201,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Alpine Ski House\",\n  \"riesgo\": \"BAJO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-05-26\",\n  \"acciones\": [\"Mantiene controles adecuados\", \"Cumple con la normativa de protección de datos\", \"Revisión realizada\"]\n}\n```"
+      ],
+      "id": "doc42",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 115,
+      "segundos": 17.35063862800598,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Margie's Travel\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 95,\n  \"fecha_revision\": \"2026-09-16\",\n  \"acciones\": [\"Implementar medidas de prevención del blanqueo de capitales\", \"Mejorar la segregación de funciones\", \"Monitoreo continuo y auditorías regulares\"]\n}\n```"
+      ],
+      "id": "doc43",
+      "tipo": "alto_sin_acciones"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 97,
+      "segundos": 15.288966655731201,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Adatum Corporation\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 90,\n  \"fecha_revision\": \"2026-08-03\",\n  \"acciones\": [\"Mejorar la continuidad de negocios\", \"Implementar controles efectivos sobre la protección de datos personales\"]\n}\n```"
+      ],
+      "id": "doc44",
+      "tipo": "alto_sin_acciones"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": false,
+      "valido": false,
+      "intentos": 1,
+      "tokens": 233,
+      "segundos": 28.487332344055176,
+      "errores_primer_intento": [
+        "extra_forbidden",
+        "extra_forbidden"
+      ],
+      "salidas": [
+        " {\"entidad\": \"Trey Research\", \"riesgo\": \"BAJO\", \"puntuacion\": 50, \"fecha_revision\": \"2026-06-15\", \"acciones\": [\"Recibir documentación\", \"Pendiente de análisis\", \"Comunicar a equipo de cumplimiento\"], \"title\": \"Evaluacion\", \"type\": \"object\"}\n\nNota: La puntuación y el riesgo se seleccionaron basados en el contexto del documento. La puntuación de 50 es arbitraria, ya que el documento no proporciona datos específicos para calcularla. El riesgo se considerado \"BAJO\" porque el documento solo menciona la recepción de documentación y la necesidad de análisis, lo que sugiere que no hay una amenaza inmediata o conocimiento de violaciones. En un escenario real, la puntuación y el riesgo deberían basarse en datos y análisis específicos."
+      ],
+      "id": "doc45",
+      "tipo": "incompleto"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 114,
+      "segundos": 17.191450834274292,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Coho Winery\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 90,\n  \"fecha_revision\": \"2026-09-06\",\n  \"acciones\": [\"Informe urgente\", \"Incumplimiento de requisitos de protección de datos personales\", \"Deficiencias graves en gestión de incidentes de seguridad\"]\n}\n```"
+      ],
+      "id": "doc46",
+      "tipo": "alto_sin_acciones"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 173,
+      "segundos": 22.51101589202881,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Trey Research\",\n  \"riesgo\": \"BAJO\",\n  \"puntuacion\": 20,\n  \"fecha_revision\": \"2026-05-22\",\n  \"acciones\": [\"Recibir documentación\", \"Pendiente de análisis por el equipo de cumplimiento\"]\n}\n```\n\nPor favor, ten en cuenta que la puntuación y las acciones en el objeto JSON proporcionado son ejemplos hipotéticos, ya que el documento original no incluye datos numéricos específicos o detalles de acciones. En un escenario real, estos valores deben extraerse de los datos relevantes del documento."
+      ],
+      "id": "doc47",
+      "tipo": "incompleto"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 179,
+      "segundos": 23.44479990005493,
+      "errores_primer_intento": [],
+      "salidas": [
+        " {\n  \"entidad\": \"Woodgrove Bank\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-02-06\",\n  \"acciones\": [\n    \"Rotar credenciales privilegiadas en 30 días\",\n    \"Implementar auditorías regulares de seguridad\",\n    \"Educar a los empleados sobre prácticas de segurança\"\n  ]\n}\n\nNota: La puntuación es arbitraria, ya que el documento original no proporciona una puntuación numérica específica. En un escenario real, esta puntuación se determinaría basándose en criterios preestablecidos."
+      ],
+      "id": "doc48",
+      "tipo": "fecha_variada"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": false,
+      "valido": false,
+      "intentos": 1,
+      "tokens": 350,
+      "segundos": 41.29377269744873,
+      "errores_primer_intento": [
+        "value_error"
+      ],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Wingtip y sus sociedías dependientes\",\n  \"riesgo\": \"BAJO\",\n  \"puntuacion\": 80,\n  \"fecha_revision\": \"2026-11-07\",\n  \"acciones\": [\n    \"Mantiene controles adecuados sobre el registro de actividades de tratamiento\",\n    \"Exige rotar las credenciales privilegiadas en 30 días\"\n  ]\n}\n```\n\nEn este objeto JSON, la evaluación de riesgo se ha interpretado como \"BAJO\" basado en la descripción positiva de las prácticas de seguridad mencionadas en el documento. La puntuación se establece en 80, lo que sugiere una calificación alta pero no máxima, lo que es consistente con el contexto de una evaluación positiva. La fecha de revisión se extrae directamente del texto del documento. Las acciones se listan como dos prácticas específicas que Wingtip está implementando para mantener un alto nivel de seguridad. Los valores exactos para \"puntuacion\" y la elección del riesgo (\"BAJO\") son hipotéticos, ya que el documento no proporciona números específicos o una clasificación clara de alto o bajo riesgo. En un escenario real, estos valores deberían basarse en criterios o puntuaciones específicas proporcionadas en el document"
+      ],
+      "id": "doc49",
+      "tipo": "variante_entidad"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 150,
+      "segundos": 20.74520444869995,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Proseware y sus sociedades dependientes\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 90,\n  \"fecha_revision\": \"2026-09-13\",\n  \"acciones\": [\"Plan de remediación aprobado por la dirección\"]\n}\n```\nNota: La puntuación es arbitraria en este ejemplo, ya que el documento original no proporciona una puntuación numérica específica. En un escenario real, esta puntuación se determinaría según criterios específicos de evaluación de riesgo."
+      ],
+      "id": "doc50",
+      "tipo": "variante_entidad"
+    }
+  ],
+  "B retry": [
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 154,
+      "segundos": 21.943577766418457,
+      "errores_primer_intento": [],
+      "salidas": [
+        " {\n  \"entidad\": \"Margie's Travel\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2023-11-12\",\n  \"acciones\": [\"Revisar el procedimiento\", \"Formar al personal\"]\n}\n\nNota: La puntuación de riesgo \"ALTO\" y la puntuación de 85 están arbitrarias, ya que el documento original no proporciona datos numéricos específicos. En un escenario real, estas valores deberían basarse en criterios o algoritmos predefinidos."
+      ],
+      "id": "doc01",
+      "tipo": "fecha_variada"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 244,
+      "segundos": 31.45408296585083,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Woodgrove Bank\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-04-18\",\n  \"acciones\": [\n    \"Implementar controles de segregación de funciones\",\n    \"Aprobado por la dirección\",\n    \"Monitoreo regular de cumplimiento\"\n  ]\n}\n```\n\nEn este objeto JSON, he asumido que la puntuación de 85 es una evaluación numérica basada en el contexto del documento, que indica un alto riesgo debido a la falta de aplicación uniforme de los controles de segregación de funciones. Las acciones sugeridas están basadas en las recomendaciones implícitas en el documento. La fecha de revisión se extrae directamente del texto. El tipo de riesgo se elige como \"ALTO\" debido a la gravedad de la falta de cumplimiento."
+      ],
+      "id": "doc02",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 216,
+      "segundos": 27.40075397491455,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"VanArsdel\",\n  \"riesgo\": \"BAJO\",\n  \"puntuacion\": 80,\n  \"fecha_revision\": \"2026-10-12\",\n  \"acciones\": [\"Mantiene controles adecuados sobre la gestión de proveedores críticos\"]\n}\n```\n\nEn este objeto JSON, he hecho algunas suposiciones sobre los valores, ya que el documento original no proporciona una puntuación numérica específica o detalles sobre las acciones. La puntuación \"BAJO\" y el valor de 80 están arbitrarios y deben ser sustituidos por los datos reales de la evaluación de riesgo. La fecha de revisión se extrajo directamente del documento. Las acciones se han extraído como una lista de una sola acción basada en el texto proporcionado."
+      ],
+      "id": "doc03",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 154,
+      "segundos": 20.902223110198975,
+      "errores_primer_intento": [],
+      "salidas": [
+        " {\n  \"entidad\": \"Relecloud\",\n  \"riesgo\": \"BAJO\",\n  \"puntuacion\": 20,\n  \"fecha_revision\": \"2026-08-07\",\n  \"acciones\": [\"Designar responsable\", \"Fijar revisiones trimestrales\"]\n}\n\nNota: La puntuación se establece arbitrariamente en 20, ya que el documento original no proporciona una puntuación numérica específica. En un escenario real, esta puntuación debería basarse en criterios o métricas relevantes para la evaluación de riesgo."
+      ],
+      "id": "doc04",
+      "tipo": "fecha_variada"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 163,
+      "segundos": 21.697300910949707,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Blue Yonder Airlines\",\n  \"riesgo\": \"BAJO\",\n  \"puntuacion\": 20,\n  \"fecha_revision\": \"2026-12-05\",\n  \"acciones\": [\"Plan de remediación aprobado por la dirección\"]\n}\n```\n\nPor favor, ten en cuenta que la puntuación (20) y la clasificación de riesgo (\"BAJO\") son hipotéticas, ya que no se proporcionan datos numéricos específicos en el documento original. En un escenario real, estas valores deben extraerse de los datos relevantes del documento."
+      ],
+      "id": "doc05",
+      "tipo": "fecha_variada"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 112,
+      "segundos": 17.473226308822632,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Relecloud\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 90,\n  \"fecha_revision\": \"2026-03-05\",\n  \"acciones\": [\"Implementar controles de acceso más estrictos\", \"Mejorar el registro de actividades de tratamiento\", \"Monitorear continuamente la adherencia a los requisitos\"]\n}\n```"
+      ],
+      "id": "doc06",
+      "tipo": "alto_sin_acciones"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 148,
+      "segundos": 20.520264863967896,
+      "errores_primer_intento": [],
+      "salidas": [
+        " {\n  \"entidad\": \"Margie's Travel\",\n  \"riesgo\": \"MEDIO\",\n  \"puntuacion\": 50,\n  \"fecha_revision\": \"2023-03-09\",\n  \"acciones\": [\"Revisar el procedimiento\", \"Formar al personal\"]\n}\n\nNota: La puntuación y la clasificación de riesgo son hipotéticas, ya que no se proporcionan datos numéricos específicos en el documento. En un escenario real, estas valores deberían basarse en análisis o criterios específicos."
+      ],
+      "id": "doc07",
+      "tipo": "fecha_variada"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": false,
+      "valido": false,
+      "intentos": 3,
+      "tokens": 604,
+      "segundos": 95.98507690429688,
+      "errores_primer_intento": [
+        "extra_forbidden"
+      ],
+      "salidas": [
+        " {\"entidad\": \"Woodgrove, S.L.U.\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-07-09\", \"acciones\": [\"Revisar el procedimiento\", \"Formar al personal\"], \"required\": [\"entidad\", \"riesgo\", \"puntuacion\", \"fecha_revision\", \"acciones\"]}\n\nNota: La puntuación \"85\" es un valor arbitrario, ya que el documento original no proporciona una puntuación numérica específica. En un escenario real, esta puntuación debería basarse en criterios o datos relevantes proporcionados en el documento.",
+        " {\"entidad\": \"Woodgrove, S.L.U.\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-07-09\", \"acciones\": [\"Revisar el procedimiento\", \"Formar al personal\"], \"required\": [\"entidad\", \"riesgo\", \"puntuacion\", \"fecha_revision\", \"acciones\"]}\n\nNota: La puntuación \"85\" es un valor arbitrario, ya que el documento original no proporciona una puntuación numérica específica. En un escenario real, esta puntuación debería basarse en criterios o datos relevantes proporcionados en el documento. El objeto JSON se ha formulado para cumplir con el esquema dado, incluyendo todos los campos requeridos sin datos adicionales o explicaciones.",
+        " {\"entidad\": \"Woodgrove, S.L.U.\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-07-09\", \"acciones\": [\"Revisar el procedimiento\", \"Formar al personal\"], \"required\": [\"entidad\", \"riesgo\", \"puntuacion\", \"fecha_revision\", \"acciones\"]}\n\nLa respuesta anterior cumple con el formato solicitado, presentando únicamente el objeto JSON sin texto adicional o bloque markdown. Se han utilizado los nombres de campo exactamente como se especifican en el esquema proporcionado. La puntuación \"85\" se ha incluido como parte del objeto, aunque no se deriva directamente del documento original, ya que tal información no se proporciona. En un contexto real, esta puntuación debería ser extraída o calculada a partir de datos relevantes del documento."
+      ],
+      "id": "doc08",
+      "tipo": "variante_entidad"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 114,
+      "segundos": 16.86761784553528,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Consolidated Messenger\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-02-05\",\n  \"acciones\": [\n    \"Implementar controles efectivos sobre la gestión de incidentes de seguridad.\",\n    \"Aprobar un plan de remediación por la dirección.\"\n  ]\n}\n```"
+      ],
+      "id": "doc09",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 233,
+      "segundos": 29.1332745552063,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Wingtip Toys\",\n  \"riesgo\": \"BAJO\",\n  \"puntuacion\": 20,\n  \"fecha_revision\": \"2026-01-24\",\n  \"acciones\": [\"Analizar documentación de gestión de proveedores críticos\", \"Incluir en base de datos de cumplimiento\", \"Monitorear para futuras revisiones\"]\n}\n```\n\nEn este ejemplo JSON, he hecho algunas suposiciones sobre los valores, ya que el documento original no proporciona datos específicos para la puntuación o las acciones detalladas. La puntuación y las acciones se han establecido en valores hipotéticos que cumplen con el formato y los tipos de datos requeridos por la instrucción. En un escenario real, estos valores deberían ser extraídos o calculados basándose en el contexto y los detalles proporcionados en el documento."
+      ],
+      "id": "doc10",
+      "tipo": "incompleto"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 220,
+      "segundos": 27.522534132003784,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Trey Research\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-06-22\",\n  \"acciones\": [\n    \"Designar responsable\",\n    \"Fijar revisiones trimestrales\"\n  ]\n}\n```\n\nEn este objeto JSON, he asumido una puntuación de 85 (entre 1 y 100) basada en la descripción del riesgo \"carece de controles efectivos\", lo que sugiere un alto nivel de riesgo. La puntuación exacta puede variar según la metodología específica utilizada para evaluar el riesgo, la cual no se proporciona en el documento. El objeto JSON cumple con el formato y los tipos de datos especificados en el JSON Schema proporcionado."
+      ],
+      "id": "doc11",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 292,
+      "segundos": 36.79614996910095,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"LUCERNE, S. A.\",\n  \"riesgo\": \"MEDIO\",\n  \"puntuacion\": 50,\n  \"fecha_revision\": \"2026-05-05\",\n  \"acciones\": [\n    \"revisar el procedimiento\",\n    \"formar al personal\"\n  ]\n}\n```\n\nEn este objeto JSON, he hecho algunas suposiciones sobre los valores ya que no se proporcionan en el documento original. La entidad \"LUCERNE, S. A.\" se ha asignado como tal, el riesgo \"MEDIO\" es una suposición basada en la descripción de retrasos puntuales, la puntuación de 50 es arbitraria dentro del rango de 1-100, la fecha de revisión \"2026-05-05\" se ha formateado como fecha, y las acciones \"revisar el procedimiento\" y \"formar al personal\" se han extraído directamente del texto. Para una evaluación precisa, estos valores deben ser determinados en función de los criterios específicos y la metodología utilizada para la evaluación de riesgo."
+      ],
+      "id": "doc12",
+      "tipo": "variante_entidad"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 128,
+      "segundos": 18.56458854675293,
+      "errores_primer_intento": [],
+      "salidas": [
+        " {\"entidad\": \"Bellows\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-12-19\", \"acciones\": [\"Revisar el procedimiento\", \"Formar al personal\"]}\n\nNota: La puntuación se ha estimado en base a la descripción del documento, ya que no se proporciona una puntuación exacta. En un escenario real, esta puntuación debería ser proporcionada por la información relevante del documento."
+      ],
+      "id": "doc13",
+      "tipo": "variante_entidad"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 112,
+      "segundos": 17.41819429397583,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Trey Research\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 90,\n  \"fecha_revision\": \"2026-06-02\",\n  \"acciones\": [\"Implementar requisitos de segregación de funciones\", \"Establecer controles efectivos sobre el registro de actividades de tratamiento\", \"Monitorear cumplimiento continuamente\"]\n}\n```"
+      ],
+      "id": "doc14",
+      "tipo": "alto_sin_acciones"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 222,
+      "segundos": 27.529887437820435,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Margie's Travel\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-05-28\",\n  \"acciones\": [\n    \"Revisar el procedimiento\",\n    \"Formar al personal\"\n  ]\n}\n```\n\nEn este objeto JSON, he asumido que la puntuación de 85 es una evaluación numérica basada en el contexto del documento, ya que no se proporciona una puntuación exacta. El riesgo se ha clasificado como \"ALTO\" debido a la mención de \"deficiencias graves\" en la gestión de proveedores críticos. Las acciones sugeridas se extraen directamente del texto del documento. La fecha de revisión se ha convertido en un formato de fecha según lo solicitado."
+      ],
+      "id": "doc15",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 90,
+      "segundos": 14.89094614982605,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Alpine Ski House\",\n  \"riesgo\": \"BAJO\",\n  \"puntuacion\": 1,\n  \"fecha_revision\": \"2026-03-07\",\n  \"acciones\": [\"No presenta incidencias relevantes en la prevención del blanqueo de capitales\"]\n}\n```"
+      ],
+      "id": "doc16",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 217,
+      "segundos": 26.981582164764404,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Coho Winery\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 90,\n  \"fecha_revision\": \"2026-11-05\",\n  \"acciones\": [\"Revisar el procedimiento\", \"Formar al personal\"]\n}\n```\n\nEste objeto JSON representa la evaluación de riesgo extraída del documento proporcionado, cumpliendo con el JSON Schema especificado. La entidad es \"Coho Winery\", clasificada como alto riesgo con una puntuación de 90 (suponiendo que la escala es de 1 a 100, donde 100 representa el riesgo más alto). La fecha de revisión es el 5 de noviembre de 2026, y las acciones recomendadas incluyen revisar el procedimiento y formar al personal."
+      ],
+      "id": "doc17",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 101,
+      "segundos": 15.276445150375366,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Wingtip Toys\",\n  \"riesgo\": \"BAJO\",\n  \"puntuacion\": 20,\n  \"fecha_revision\": \"2026-02-05\",\n  \"acciones\": [\"Cumple los requisitos de protección de datos personales\", \"Observaciones menores\", \"Revisión realizada\"]\n}\n```"
+      ],
+      "id": "doc18",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 350,
+      "segundos": 40.94317293167114,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"LITWARE, S. A.\",\n  \"riesgo\": \"BAJO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-10-21\",\n  \"acciones\": [\n    \"Designar responsable\",\n    \"Fijar revisiones trimestrales\"\n  ]\n}\n```\n\nEn este objeto JSON, se ha extraído la información relevante del documento de la siguiente manera:\n\n- `entidad`: \"LITWARE, S. A.\" - La empresa mencionada en la evaluación.\n- `riesgo`: \"BAJO\" - Dado que las observaciones son menores y no se mencionan problemas significativos, el riesgo se considera bajo.\n- `puntuacion`: 85 - Esta es una puntuación arbitraria asignada para representar la evaluación en una escala de 1 a 100. El documento no proporciona una puntuación exacta, por lo que he seleccionado un valor razonable dentro del rango permitido.\n- `fecha_revision`: \"2026-10-21\" - La fecha de la revisión mencionada en el documento.\n- `acciones`: [\"Designar responsable\", \"Fijar revisiones trimestrales\"] - Acciones recomendadas basadas en las observaciones realizadas durante la revisión.\n\nTenga en cuenta"
+      ],
+      "id": "doc19",
+      "tipo": "variante_entidad"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 127,
+      "segundos": 18.579138040542603,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Margie's Travel\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 95,\n  \"fecha_revision\": \"2026-02-05\",\n  \"acciones\": [\n    \"Revisar políticas de prevención del blanqueo de capitales\",\n    \"Mejorar la gestión de incidentes de seguridad\",\n    \"Implementar medidas correctivas urgentes\"\n  ]\n}\n```"
+      ],
+      "id": "doc20",
+      "tipo": "alto_sin_acciones"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 148,
+      "segundos": 22.96598505973816,
+      "errores_primer_intento": [],
+      "salidas": [
+        " {\n  \"entidad\": \"Fourth Coffee\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-08-27\",\n  \"acciones\": [\n    \"Designar responsable\",\n    \"Fijar revisiones trimestrales\"\n  ]\n}\n\nNota: La puntuación es arbitraria, ya que el documento no proporciona una puntuación numérica específica. En un escenario real, esta puntuación se determinaría basándose en criterios preestablecidos."
+      ],
+      "id": "doc21",
+      "tipo": "largo_ruidoso"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 93,
+      "segundos": 14.631372213363647,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"VanArsdel\",\n  \"riesgo\": \"BAJO\",\n  \"puntuacion\": 1,\n  \"fecha_revision\": \"2026-01-13\",\n  \"acciones\": [\"cumple los requisitos de la segregación de funciones\", \"observaciones menores\"]\n}\n```"
+      ],
+      "id": "doc22",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 208,
+      "segundos": 26.098960638046265,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Alpine Ski House\",\n  \"riesgo\": \"BAJO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-07-24\",\n  \"acciones\": [\"Mantiene controles adecuados\", \"Cumple con la normativa de protección de datos\", \"Revisión positiva\"]\n}\n```\n\nEn este ejemplo de respuesta JSON, he asumido que la puntuación es un valor arbitrario (85) ya que el documento original no proporciona una puntuación específica. Las acciones se extrajeron de la descripción general del documento, asumiendo que estas son las acciones realizadas. En un escenario real, la puntuación y las acciones deberían extraerse directamente de los datos proporcionados en el documento."
+      ],
+      "id": "doc23",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 207,
+      "segundos": 26.05073356628418,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Margie's Travel\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 80,\n  \"fecha_revision\": \"2023-04-01\",\n  \"acciones\": [\n    \"Designar responsable\",\n    \"Fijar revisiones trimestrales\"\n  ]\n}\n```\n\nNota: La puntuación de riesgo (`\"puntuacion\": 80`) es un valor arbitrario, ya que el documento original no proporciona una puntuación numérica específica. En un escenario real, esta puntuación se determinaría basándose en criterios preestablecidos. El `fecha_revision` también se ha establecido hipotéticamente como \"2023-04-01\" para fines ilustrativos."
+      ],
+      "id": "doc24",
+      "tipo": "incompleto"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 135,
+      "segundos": 19.054538011550903,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Woodgrove Bank\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-03-22\",\n  \"acciones\": [\n    \"Implementar un plan de remediación aprobado por la dirección\",\n    \"Mejorar los controles de la continuidad de negocio de manera uniforme\",\n    \"Monitorear y reportar regularmente la aplicación de los controles\"\n  ]\n}\n```"
+      ],
+      "id": "doc25",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 112,
+      "segundos": 17.138514518737793,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Lucerne Publishing\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 90,\n  \"fecha_revision\": \"2026-01-25\",\n  \"acciones\": [\"Implementar requisitos de segregación de funciones\", \"Mejorar gestión de proveedores críticos\", \"Inspeccionar y monitorear la situación regularmente\"]\n}\n```"
+      ],
+      "id": "doc26",
+      "tipo": "alto_sin_acciones"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 189,
+      "segundos": 26.582472801208496,
+      "errores_primer_intento": [],
+      "salidas": [
+        " {\n  \"entidad\": \"Bellows College\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-12-23\",\n  \"acciones\": [\n    \"Rotar las credenciales privilegiadas en 30 días\",\n    \"Revisar 42 expedientes seleccionados por muestreo aleatorio\",\n    \"Incluir colaboración del personal entrevistado\"\n  ]\n}\n\nNota: La puntuación es arbitraria en este ejemplo, ya que el documento no proporciona una puntuación numérica específica. En un escenario real, esta puntuación debería basarse en criterios predefinidos para evaluar el riesgo."
+      ],
+      "id": "doc27",
+      "tipo": "largo_ruidoso"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 254,
+      "segundos": 30.703898668289185,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Blue Yonder Airlines\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-10-09\",\n  \"acciones\": [\"Revisar el procedimiento\", \"Formar al personal\"]\n}\n```\n\nEste objeto JSON representa la evaluación de riesgo basada en la información proporcionada en el documento. La entidad es \"Blue Yonder Airlines\", clasificada como \"ALTO\" riesgo debido a la documentación incompleta sobre la segregación de funciones. La puntuación se establece en 85 (suponiendo que esta es una escala de 1-100), la fecha de revisión es el 9 de octubre de 2026, y las acciones recomendadas incluyen revisar el procedimiento y formar al personal. Los valores exactos para \"puntuacion\" y la estructura de la lista de acciones pueden variar según la información detallada no proporcionada en el documento."
+      ],
+      "id": "doc28",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 136,
+      "segundos": 19.524077653884888,
+      "errores_primer_intento": [],
+      "salidas": [
+        " {\n  \"entidad\": \"Blue Yonder Airlines\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-04-07\",\n  \"acciones\": [\"Rotar las credenciales privilegiadas en 30 días\"]\n}\n\nNota: La puntuación y la fecha de revisión son ejemplos basados en el contexto del documento. En un escenario real, estas valores deben ser determinadas por un análisis de riesgo específico."
+      ],
+      "id": "doc29",
+      "tipo": "fecha_variada"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 137,
+      "segundos": 19.38571333885193,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Woodgrove y sus sociedades dependientes\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-11-23\",\n  \"acciones\": [\n    \"Evaluar documentación completa sobre la protección de datos personales\",\n    \"Crear un plan de remediación aprobado por la dirección\",\n    \"Implementar medidas para mejorar la gestión de datos personales\"\n  ]\n}\n```"
+      ],
+      "id": "doc30",
+      "tipo": "variante_entidad"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 165,
+      "segundos": 24.4071261882782,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Contoso S.A.\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-08-08\",\n  \"acciones\": [\n    \"Designar responsable\",\n    \"Fijar revisiones trimestrales\"\n  ]\n}\n```\n\nNota: La puntuación se ha estimado en base a la descripción del documento, ya que no se proporciona una puntuación exacta. En un escenario real, esta puntuación debería ser determinada por un proceso de evaluación basado en criterios específicos."
+      ],
+      "id": "doc31",
+      "tipo": "largo_ruidoso"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 206,
+      "segundos": 28.87252378463745,
+      "errores_primer_intento": [],
+      "salidas": [
+        " {\n  \"entidad\": \"Adatum Corporation\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-01-19\",\n  \"acciones\": [\n    \"Aplicar de forma uniforme los controles de segregación de funciones\",\n    \"Desarrollar y aprobar un plan de remediación por la dirección\",\n    \"Monitorear la efectividad de los controles implementados\"\n  ]\n}\n\nNota: La puntuación de riesgo (85) es un valor arbitrario, ya que el documento original no proporciona una puntuación numérica específica. En un escenario real, esta puntuación se determinaría basándose en criterios preestablecidos y datos relevantes del contexto de la evaluación de riesgo."
+      ],
+      "id": "doc32",
+      "tipo": "largo_ruidoso"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 200,
+      "segundos": 27.566054344177246,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Contoso S.A.\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-07-23\",\n  \"acciones\": [\n    \"Exigir rotar las credenciales privilegiadas en 30 días\",\n    \"Reunión de cierre en las oficinas centrales con la dirección\",\n    \"Colaboración del personal entrevistado\"\n  ]\n}\n```\n\nNota: La puntuación de riesgo (85) es un valor arbitrario, ya que el documento original no proporciona una puntuación numérica específica. En un escenario real, esta puntuación se determinaría basándose en criterios específicos de evaluación de riesgo."
+      ],
+      "id": "doc33",
+      "tipo": "largo_ruidoso"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 98,
+      "segundos": 15.319233417510986,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"WOODGROVE, S. A.\",\n  \"riesgo\": \"BAJO\",\n  \"puntuacion\": 20,\n  \"fecha_revision\": \"2026-06-17\",\n  \"acciones\": [\n    \"Revisar el procedimiento\",\n    \"Formar al personal\"\n  ]\n}\n```"
+      ],
+      "id": "doc34",
+      "tipo": "variante_entidad"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 350,
+      "segundos": 41.42058348655701,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"VanArsdel\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 90,\n  \"fecha_revision\": \"2026-12-26\",\n  \"acciones\": [\"Requerir plan de remediación aprobado por la dirección\"]\n}\n```\n\nEn este objeto JSON, he hecho las siguientes suposiciones basadas en la información proporcionada:\n\n- `entidad`: \"VanArsdel\" es la entidad mencionada en el documento.\n- `riesgo`: \"ALTO\" se asigna porque el documento habla de \"deficiencias graves\", lo que sugiere un alto riesgo.\n- `puntuacion`: 90 es una puntuación arbitraria dentro del rango de 1 a 100, reflejando el alto riesgo.\n- `fecha_revision`: \"2026-12-26\" es la fecha proporcionada en el formato de fecha.\n- `acciones`: Un array con un único elemento, \"Requerir plan de remediación aprobado por la dirección\", que representa la acción necesaria en respuesta al alto riesgo.\n\nTenga en cuenta que la puntuación exacta y las acciones específicas no se proporcionan en el documento, por lo que se han elegido valores razonables para ilustrar cómo se podría estructurar"
+      ],
+      "id": "doc35",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 121,
+      "segundos": 17.276638746261597,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Woodgrove Bank\",\n  \"riesgo\": \"BAJO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-11-15\",\n  \"acciones\": [\n    \"Mantiene controles adecuados sobre la protección de datos personales\",\n    \"Revisión realizada\",\n    \"Cumple con los estándares de protección de datos\"\n  ]\n}\n```"
+      ],
+      "id": "doc36",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": false,
+      "valido": false,
+      "intentos": 3,
+      "tokens": 663,
+      "segundos": 103.95750570297241,
+      "errores_primer_intento": [
+        "extra_forbidden",
+        "extra_forbidden",
+        "extra_forbidden"
+      ],
+      "salidas": [
+        " {\"entidad\": \"Woodgrove Bank\", \"riesgo\": \"BAJO\", \"puntuacion\": 20, \"fecha_revision\": \"2026-12-05\", \"acciones\": [\"Recibir documentación\", \"Pendiente de análisis por el equipo de cumplimiento\"], \"required\": [\"entidad\", \"riesgo\", \"puntuacion\", \"fecha_revision\", \"acciones\"], \"title\": \"Evaluacion\", \"type\": \"object\"}\n\nNota: La puntuación se establece arbitrariamente en 20 ya que el documento no proporciona detalles específicos para calcular una puntuación de riesgo. En un escenario real, esta puntuación se determinaría basándose en criterios específicos de evaluación de riesgo.",
+        " {\"entidad\": \"Woodgrove Bank\", \"riesgo\": \"BAJO\", \"puntuacion\": 20, \"fecha_revision\": \"2026-12-05\", \"acciones\": [\"Recibir documentación\", \"Pendiente de análisis por el equipo de cumplimiento\"], \"required\": [\"entidad\", \"riesgo\", \"puntuacion\", \"fecha_revision\", \"acciones\"], \"title\": \"Evaluacion\", \"type\": \"object\"}\n\nNota: La puntuación se establece arbitrariamente en 20 ya que el documento no proporciona detalles específicos para calcular una puntuación de riesgo. En un escenario real, esta puntuación se determinaría basándose en criterios específicos de evaluación de riesgo. El objeto JSON se ha formulado para cumplir con el esquema dado, sin información adicional o formato adicional.",
+        " {\"entidad\": \"Woodgrove Bank\", \"riesgo\": \"BAJO\", \"puntuacion\": 20, \"fecha_revision\": \"2026-12-05\", \"acciones\": [\"Recibir documentación\", \"Pendiente de análisis por el equipo de cumplimiento\"], \"required\": [\"entidad\", \"riesgo\", \"puntuacion\", \"fecha_revision\", \"acciones\"], \"title\": \"Evaluacion\", \"type\": \"object\"}\n\nLa respuesta proporcionada cumple con el formato JSON especificado en la instrucción inicial, utilizando exactamente los nombres de campo del esquema sin incluir texto adicional o formato markdown. La puntuación se ha asignado como un valor entero arbitrario (20) debido a la falta de detalles específicos en el documento proporcionado para determinar una puntuación de riesgo precisa. En una situación práctica, esta puntuación se calcularía utilizando un conjunto predefinido de criterios relacionados con la evaluación de riesgo."
+      ],
+      "id": "doc37",
+      "tipo": "incompleto"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 350,
+      "segundos": 41.255953550338745,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Lucerne\",\n  \"riesgo\": \"BAJO\",\n  \"puntuacion\": 80,\n  \"fecha_revision\": \"2026-09-18\",\n  \"acciones\": [\"Requerir plan de remediación aprobado por la dirección\"]\n}\n```\n\nEn este objeto JSON, he hecho las siguientes suposiciones basadas en la información proporcionada:\n\n- `entidad`: \"Lucerne\" es la entidad identificada en el documento.\n- `riesgo`: \"BAJO\" se asigna porque el documento indica que las observaciones son menores, lo que sugiere un bajo riesgo.\n- `puntuacion`: 80 es una puntuación arbitraria dentro del rango de 1-100, sugiriendo una evaluación positiva pero con áreas de mejora.\n- `fecha_revision`: \"2026-09-18\" es la fecha proporcionada en el documento.\n- `acciones`: Un array con una sola acción, \"Requerir plan de remediación aprobado por la dirección\", que es una acción sugerida en el documento.\n\nPor favor, ten en cuenta que la puntuación y las acciones específicas son hipotéticas y no se derivan directamente del texto, ya que no se proporcionan datos numéricos o detallados para la"
+      ],
+      "id": "doc38",
+      "tipo": "variante_entidad"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 278,
+      "segundos": 33.68162822723389,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Consolidated y sus sociedades dependientes\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-04-10\",\n  \"acciones\": [\n    \"Evaluar la gestión de proveedores críticos\",\n    \"Aprobar un plan de remediación por la dirección\"\n  ]\n}\n```\n\nEn este objeto JSON, la entidad es \"Consolidated y sus sociedades dependientes\", que se considera de alto riesgo debido a los retrasos en la gestión de proveedores críticos. La puntuación se establece en 85, lo que sugiere una evaluación significativa, aunque no se proporciona el método exacto de puntuación. La fecha de revisión es el 10 de abril de 2026. Las acciones recomendadas incluyen evaluar la gestión de proveedores críticos y aprobar un plan de remediación por la dirección. El objeto cumple con el JSON Schema especificado, con valores apropiados para cada propiedad."
+      ],
+      "id": "doc39",
+      "tipo": "variante_entidad"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 159,
+      "segundos": 21.125006437301636,
+      "errores_primer_intento": [],
+      "salidas": [
+        " {\n  \"entidad\": \"Trey Research\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 80,\n  \"fecha_revision\": \"2023-02-06\",\n  \"acciones\": [\"Desarrollar un plan de remediación\", \"Obtención de aprobación por la dirección\", \"Monitoreo continuo de la continuidad de negocio\"]\n}\n\nNota: La puntuación y la fecha de revisión son ejemplos basados en el contexto del documento. En un escenario real, estas valores deberían ser determinadas por un análisis de riesgo detallado."
+      ],
+      "id": "doc40",
+      "tipo": "fecha_variada"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 111,
+      "segundos": 16.860692977905273,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Fabrikam Ibérica S.L.\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 95,\n  \"fecha_revision\": \"2026-05-10\",\n  \"acciones\": [\"Mejora gestión de incidentes de seguridad\", \"Mejora continuidad de negocio\", \"Implementación de protocolos de seguridad\"]\n}\n```"
+      ],
+      "id": "doc41",
+      "tipo": "alto_sin_acciones"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 101,
+      "segundos": 16.259085655212402,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Alpine Ski House\",\n  \"riesgo\": \"BAJO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-05-26\",\n  \"acciones\": [\"Mantiene controles adecuados\", \"Cumple con la normativa de protección de datos\", \"Revisión realizada\"]\n}\n```"
+      ],
+      "id": "doc42",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 115,
+      "segundos": 17.3063862323761,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Margie's Travel\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 95,\n  \"fecha_revision\": \"2026-09-16\",\n  \"acciones\": [\"Implementar medidas de prevención del blanqueo de capitales\", \"Mejorar la segregación de funciones\", \"Monitoreo continuo y auditorías regulares\"]\n}\n```"
+      ],
+      "id": "doc43",
+      "tipo": "alto_sin_acciones"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 97,
+      "segundos": 15.4994535446167,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Adatum Corporation\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 90,\n  \"fecha_revision\": \"2026-08-03\",\n  \"acciones\": [\"Mejorar la continuidad de negocios\", \"Implementar controles efectivos sobre la protección de datos personales\"]\n}\n```"
+      ],
+      "id": "doc44",
+      "tipo": "alto_sin_acciones"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": false,
+      "valido": false,
+      "intentos": 3,
+      "tokens": 618,
+      "segundos": 98.9730818271637,
+      "errores_primer_intento": [
+        "extra_forbidden",
+        "extra_forbidden"
+      ],
+      "salidas": [
+        " {\"entidad\": \"Trey Research\", \"riesgo\": \"BAJO\", \"puntuacion\": 50, \"fecha_revision\": \"2026-06-15\", \"acciones\": [\"Recibir documentación\", \"Pendiente de análisis\", \"Comunicar a equipo de cumplimiento\"], \"title\": \"Evaluacion\", \"type\": \"object\"}\n\nNota: La puntuación y el riesgo se seleccionaron basados en el contexto del documento. La puntuación de 50 es arbitraria, ya que el documento no proporciona datos específicos para calcularla. El riesgo se considerado \"BAJO\" porque el documento solo menciona la recepción de documentación y la necesidad de análisis, lo que sugiere que no hay una amenaza inmediata o conocimiento de violaciones. En un escenario real, la puntuación y el riesgo deberían basarse en datos y análisis específicos.",
+        " {\"entidad\": \"Trey Research\", \"riesgo\": \"BAJO\", \"puntuacion\": 50, \"fecha_revision\": \"2026-06-15\", \"acciones\": [\"Recibir documentación\", \"Pendiente de análisis\", \"Comunicar a equipo de cumplimiento\"], \"title\": \"Evaluacion\", \"type\": \"object\"}\n\nNota: El objeto JSON proporcionado cumple con el esquema especificado, sin texto adicional ni formato markdown. La puntuación y el riesgo están incluidos como valores arbitrarios, ya que el documento original no proporciona datos concretos para ellos. En un escenario real, estos valores deben ser determinados mediante un análisis adecuado de los datos relevantes.",
+        " {\"entidad\": \"Trey Research\", \"riesgo\": \"BAJO\", \"puntuacion\": 50, \"fecha_revision\": \"2026-06-15\", \"acciones\": [\"Recibir documentación\", \"Pendiente de análisis\", \"Comunicar a equipo de cumplimiento\"], \"title\": \"Evaluacion\", \"type\": \"object\"}\n\nLa respuesta proporcionada ahora sigue estrictamente el formato JSON requerido sin texto adicional o formato markdown. Los valores para \"riesgo\" y \"puntuacion\" se han mantenido como arbitrarios, ya que el documento original no proporciona datos específicos para estos campos. Si se necesitan valores específicos, se requeriría información adicional o contexto para generar un objeto JSON preciso."
+      ],
+      "id": "doc45",
+      "tipo": "incompleto"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 114,
+      "segundos": 17.529937267303467,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Coho Winery\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 90,\n  \"fecha_revision\": \"2026-09-06\",\n  \"acciones\": [\"Informe urgente\", \"Incumplimiento de requisitos de protección de datos personales\", \"Deficiencias graves en gestión de incidentes de seguridad\"]\n}\n```"
+      ],
+      "id": "doc46",
+      "tipo": "alto_sin_acciones"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 173,
+      "segundos": 22.467195510864258,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Trey Research\",\n  \"riesgo\": \"BAJO\",\n  \"puntuacion\": 20,\n  \"fecha_revision\": \"2026-05-22\",\n  \"acciones\": [\"Recibir documentación\", \"Pendiente de análisis por el equipo de cumplimiento\"]\n}\n```\n\nPor favor, ten en cuenta que la puntuación y las acciones en el objeto JSON proporcionado son ejemplos hipotéticos, ya que el documento original no incluye datos numéricos específicos o detalles de acciones. En un escenario real, estos valores deben extraerse de los datos relevantes del documento."
+      ],
+      "id": "doc47",
+      "tipo": "incompleto"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 179,
+      "segundos": 23.142374515533447,
+      "errores_primer_intento": [],
+      "salidas": [
+        " {\n  \"entidad\": \"Woodgrove Bank\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 85,\n  \"fecha_revision\": \"2026-02-06\",\n  \"acciones\": [\n    \"Rotar credenciales privilegiadas en 30 días\",\n    \"Implementar auditorías regulares de seguridad\",\n    \"Educar a los empleados sobre prácticas de segurança\"\n  ]\n}\n\nNota: La puntuación es arbitraria, ya que el documento original no proporciona una puntuación numérica específica. En un escenario real, esta puntuación se determinaría basándose en criterios preestablecidos."
+      ],
+      "id": "doc48",
+      "tipo": "fecha_variada"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": false,
+      "valido": true,
+      "intentos": 2,
+      "tokens": 631,
+      "segundos": 86.35825681686401,
+      "errores_primer_intento": [
+        "value_error"
+      ],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Wingtip y sus sociedías dependientes\",\n  \"riesgo\": \"BAJO\",\n  \"puntuacion\": 80,\n  \"fecha_revision\": \"2026-11-07\",\n  \"acciones\": [\n    \"Mantiene controles adecuados sobre el registro de actividades de tratamiento\",\n    \"Exige rotar las credenciales privilegiadas en 30 días\"\n  ]\n}\n```\n\nEn este objeto JSON, la evaluación de riesgo se ha interpretado como \"BAJO\" basado en la descripción positiva de las prácticas de seguridad mencionadas en el documento. La puntuación se establece en 80, lo que sugiere una calificación alta pero no máxima, lo que es consistente con el contexto de una evaluación positiva. La fecha de revisión se extrae directamente del texto del documento. Las acciones se listan como dos prácticas específicas que Wingtip está implementando para mantener un alto nivel de seguridad. Los valores exactos para \"puntuacion\" y la elección del riesgo (\"BAJO\") son hipotéticos, ya que el documento no proporciona números específicos o una clasificación clara de alto o bajo riesgo. En un escenario real, estos valores deberían basarse en criterios o puntuaciones específicas proporcionadas en el document",
+        " ```json\n{\n  \"entidad\": \"Wingtip y sus sociedades dependientes\",\n  \"riesgo\": \"BAJO\",\n  \"puntuacion\": 80,\n  \"fecha_revision\": \"2026-11-07\",\n  \"acciones\": [\n    \"Mantiene controles adecuados sobre el registro de actividades de tratamiento\",\n    \"Exige rotar las credenciales privilegiadas en 30 días\"\n  ]\n}\n```\n\nEn este objeto JSON corregido, la entidad \"Wingtip y sus sociedades dependientes\" se ha extraído directamente del documento, cumpliendo con el requisito de usar exactamente los nombres de campo del esquema. Las otras propiedades están presentadas de acuerdo con el esquema proporcionado, con valores hipotéticos elegidos para \"riesgo\" y \"puntuacion\" que reflejan una evaluación positiva sin detalles específicos del documento. La fecha de revisión también se extrae directamente del texto del documento. Las acciones se listan como prácticas específicas mencionadas en el documento."
+      ],
+      "id": "doc49",
+      "tipo": "variante_entidad"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 150,
+      "segundos": 20.480928659439087,
+      "errores_primer_intento": [],
+      "salidas": [
+        " ```json\n{\n  \"entidad\": \"Proseware y sus sociedades dependientes\",\n  \"riesgo\": \"ALTO\",\n  \"puntuacion\": 90,\n  \"fecha_revision\": \"2026-09-13\",\n  \"acciones\": [\"Plan de remediación aprobado por la dirección\"]\n}\n```\nNota: La puntuación es arbitraria en este ejemplo, ya que el documento original no proporciona una puntuación numérica específica. En un escenario real, esta puntuación se determinaría según criterios específicos de evaluación de riesgo."
+      ],
+      "id": "doc50",
+      "tipo": "variante_entidad"
+    }
+  ],
+  "C constrained": [
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 69,
+      "segundos": 13.33858871459961,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Margie's Travel\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2023-11-12\", \"acciones\": [\"Revisar el procedimiento\", \"Formar al personal\"]}"
+      ],
+      "id": "doc01",
+      "tipo": "fecha_variada"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 86,
+      "segundos": 14.826655387878418,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Woodgrove Bank\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-04-18\", \"acciones\": [\"Implementar controles de segregación de funciones\", \"Aprobado por la dirección\", \"Monitoreo regular de cumplimiento\"]}"
+      ],
+      "id": "doc02",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 80,
+      "segundos": 13.705132246017456,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"VanArsdel\", \"riesgo\": \"BAJO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-10-12\", \"acciones\": [\"Mantiene controles adecuados\", \"Revisión realizada\", \"Cumplimiento satisfactorio\"]}"
+      ],
+      "id": "doc03",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 70,
+      "segundos": 12.85808253288269,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Relecloud\", \"riesgo\": \"BAJO\", \"puntuacion\": 20, \"fecha_revision\": \"2026-08-07\", \"acciones\": [\"Designar responsable\", \"Fijar revisiones trimestrales\"]}"
+      ],
+      "id": "doc04",
+      "tipo": "fecha_variada"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 67,
+      "segundos": 12.36775255203247,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Blue Yonder Airlines\", \"riesgo\": \"MEDIO\", \"puntuacion\": 50, \"fecha_revision\": \"2026-12-05\", \"acciones\": [\"Plan de remediación aprobado por la dirección\"]}"
+      ],
+      "id": "doc05",
+      "tipo": "fecha_variada"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 98,
+      "segundos": 15.957202672958374,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Relecloud\", \"riesgo\": \"ALTO\", \"puntuacion\": 100, \"fecha_revision\": \"2026-03-05\", \"acciones\": [\"Revisar los requisitos del control de accesos\", \"Revisar los requisitos del registro de actividades de tratamiento\", \"Implementar medidas correctivas inmediatas\"]}"
+      ],
+      "id": "doc06",
+      "tipo": "alto_sin_acciones"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 70,
+      "segundos": 12.483967781066895,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Margie's Travel\", \"riesgo\": \"MEDIO\", \"puntuacion\": 50, \"fecha_revision\": \"2023-03-09\", \"acciones\": [\"Revisar el procedimiento\", \"Formar al personal\"]}"
+      ],
+      "id": "doc07",
+      "tipo": "fecha_variada"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 72,
+      "segundos": 14.0050630569458,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Woodgrove, S.L.U.\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-07-09\", \"acciones\": [\"Revisar el procedimiento\", \"Formar al personal\"]}"
+      ],
+      "id": "doc08",
+      "tipo": "variante_entidad"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 104,
+      "segundos": 16.15238332748413,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Consolidated Messenger\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-02-05\", \"acciones\": [\"Implementar controles efectivos sobre la gestión de incidentes de seguridad\", \"Aprobar un plan de remediación por la dirección\", \"Monitorear la efectividad de los controles implementados\"]}"
+      ],
+      "id": "doc09",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 82,
+      "segundos": 13.636312007904053,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Wingtip Toys\", \"riesgo\": \"BAJO\", \"puntuacion\": 50, \"fecha_revision\": \"2026-01-24\", \"acciones\": [\"Recibir documentación\", \"Análisis por el equipo de cumplimiento\", \"Toma de decisiones futura\"]}"
+      ],
+      "id": "doc10",
+      "tipo": "incompleto"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 69,
+      "segundos": 12.748565435409546,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Trey Research\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-06-22\", \"acciones\": [\"Designar responsable\", \"Fijar revisiones trimestrales\"]}"
+      ],
+      "id": "doc11",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 70,
+      "segundos": 13.12941837310791,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"LUCERNE, S. A.\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-05-05\", \"acciones\": [\"Revisar el procedimiento\", \"Formar al personal\"]}"
+      ],
+      "id": "doc12",
+      "tipo": "variante_entidad"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 65,
+      "segundos": 12.129060745239258,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Bellows\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-12-19\", \"acciones\": [\"Revisar el procedimiento\", \"Formar al personal\"]}"
+      ],
+      "id": "doc13",
+      "tipo": "variante_entidad"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 98,
+      "segundos": 15.720985651016235,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Trey Research\", \"riesgo\": \"ALTO\", \"puntuacion\": 90, \"fecha_revision\": \"2026-06-02\", \"acciones\": [\"Implementar requisitos de segregación de funciones\", \"Establecer controles efectivos sobre el registro de actividades de tratamiento\", \"Monitorear y auditar regularmente la situación\"]}"
+      ],
+      "id": "doc14",
+      "tipo": "alto_sin_acciones"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 69,
+      "segundos": 12.425257682800293,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Margie's Travel\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-05-28\", \"acciones\": [\"Revisar el procedimiento\", \"Formar al personal\"]}"
+      ],
+      "id": "doc15",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 80,
+      "segundos": 13.64586591720581,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Alpine Ski House\", \"riesgo\": \"BAJO\", \"puntuacion\": 1, \"fecha_revision\": \"2026-03-07\", \"acciones\": [\"No presenta incidencias relevantes\", \"Prevención del blanqueo de capitales\", \"Revisión realizada\"]}"
+      ],
+      "id": "doc16",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 67,
+      "segundos": 12.250234365463257,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Coho Winery\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-11-05\", \"acciones\": [\"Revisar el procedimiento\", \"Formar al personal\"]}"
+      ],
+      "id": "doc17",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 84,
+      "segundos": 13.874247074127197,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Wingtip Toys\", \"riesgo\": \"BAJO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-02-05\", \"acciones\": [\"cumple los requisitos de la protección de datos personales\", \"observaciones menores\", \"revisión realizada\"]}"
+      ],
+      "id": "doc18",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 75,
+      "segundos": 13.422024965286255,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"LITWARE, S. A.\", \"riesgo\": \"BAJO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-10-21\", \"acciones\": [\"Designar responsable\", \"Fijar revisiones trimestrales\"]}"
+      ],
+      "id": "doc19",
+      "tipo": "variante_entidad"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 105,
+      "segundos": 16.40161657333374,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Margie's Travel\", \"riesgo\": \"ALTO\", \"puntuacion\": 90, \"fecha_revision\": \"2026-02-05\", \"acciones\": [\"Incumplimiento de requisitos de prevención del blanqueo de capitales\", \"Deficiencias graves en la gestión de incidentes de seguridad\", \"Situación considerada crítica\"]}"
+      ],
+      "id": "doc20",
+      "tipo": "alto_sin_acciones"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 72,
+      "segundos": 15.096048831939697,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Fourth Coffee\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-08-27\", \"acciones\": [\"Designar responsable\", \"Fijar revisiones trimestrales\"]}"
+      ],
+      "id": "doc21",
+      "tipo": "largo_ruidoso"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 84,
+      "segundos": 13.734917879104614,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"VanArsdel\", \"riesgo\": \"BAJO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-01-13\", \"acciones\": [\"Cumple los requisitos de segregación de funciones\", \"Observaciones menores\", \"Revisión realizada\"]}"
+      ],
+      "id": "doc22",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 71,
+      "segundos": 12.301605224609375,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Alpine Ski House\", \"riesgo\": \"BAJO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-07-24\", \"acciones\": [\"Mantiene controles adecuados sobre la protección de datos personales\"]}"
+      ],
+      "id": "doc23",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 73,
+      "segundos": 12.601158857345581,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Margie's Travel\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2023-04-01\", \"acciones\": [\"Designar responsable\", \"Fijar revisiones trimestrales\"]}"
+      ],
+      "id": "doc24",
+      "tipo": "incompleto"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 104,
+      "segundos": 16.099035024642944,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Woodgrove Bank\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-03-22\", \"acciones\": [\"Aplicar controles de continuidad de negocio uniformemente\", \"Aprobar plan de remediación por la dirección\", \"Monitorear la aplicación de los controles de continuidad de negocio regularmente\"]}"
+      ],
+      "id": "doc25",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 95,
+      "segundos": 15.51219367980957,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Lucerne Publishing\", \"riesgo\": \"ALTO\", \"puntuacion\": 90, \"fecha_revision\": \"2026-01-25\", \"acciones\": [\"Implementar requisitos de segregación de funciones\", \"Mejorar gestión de proveedores críticos\", \"Inspeccionar y monitorear la situación regularmente\"]}"
+      ],
+      "id": "doc26",
+      "tipo": "alto_sin_acciones"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 109,
+      "segundos": 18.350263833999634,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Bellows College\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-12-23\", \"acciones\": [\"Rotar las credenciales privilegiadas en 30 días\", \"Revisar 42 expedientes seleccionados por muestreo aleatorio\", \"Celebrar reunión de cierre en las oficinas centrales con la dirección\"]}"
+      ],
+      "id": "doc27",
+      "tipo": "largo_ruidoso"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 66,
+      "segundos": 12.361119508743286,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Blue Yonder Airlines\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-10-09\", \"acciones\": [\"Revisar el procedimiento\", \"Formar al personal\"]}"
+      ],
+      "id": "doc28",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 69,
+      "segundos": 12.565650939941406,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Blue Yonder Airlines\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-04-07\", \"acciones\": [\"Rotar las credenciales privilegiadas en 30 días\"]}"
+      ],
+      "id": "doc29",
+      "tipo": "fecha_variada"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 92,
+      "segundos": 14.765454530715942,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Woodgrove y sus sociedades dependientes\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-11-23\", \"acciones\": [\"Evaluar documentación sobre protección de datos personales\", \"Crear un plan de remediación\", \"Aprobado por la dirección\"]}"
+      ],
+      "id": "doc30",
+      "tipo": "variante_entidad"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 71,
+      "segundos": 14.75858759880066,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Contoso S.A.\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-08-08\", \"acciones\": [\"Designar responsable\", \"Fijar revisiones trimestrales\"]}"
+      ],
+      "id": "doc31",
+      "tipo": "largo_ruidoso"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 99,
+      "segundos": 17.562623500823975,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Adatum Corporation\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-01-19\", \"acciones\": [\"Revisar los controles de segregación de funciones\", \"Desarrollar un plan de remediación aprobado por la dirección\", \"Monitorear la implementación del plan de remediación\"]}"
+      ],
+      "id": "doc32",
+      "tipo": "largo_ruidoso"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 103,
+      "segundos": 18.08711314201355,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Contoso S.A.\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-07-23\", \"acciones\": [\"Exigir rotar las credenciales privilegiadas en 30 días\", \"Reunión de cierre en las oficinas centrales con la dirección\", \"Colaboración del personal entrevistado\"]}"
+      ],
+      "id": "doc33",
+      "tipo": "largo_ruidoso"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 73,
+      "segundos": 12.831398725509644,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"WOODGROVE, S. A.\", \"riesgo\": \"BAJO\", \"puntuacion\": 20, \"fecha_revision\": \"2026-06-17\", \"acciones\": [\"Revisar el procedimiento\", \"Formar al personal\"]}"
+      ],
+      "id": "doc34",
+      "tipo": "variante_entidad"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 70,
+      "segundos": 12.795004606246948,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"VanArsdel\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-12-26\", \"acciones\": [\"Requerir plan de remediación aprobado por la dirección\"]}"
+      ],
+      "id": "doc35",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 80,
+      "segundos": 13.293567419052124,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Woodgrove Bank\", \"riesgo\": \"BAJO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-11-15\", \"acciones\": [\"Mantiene controles adecuados\", \"Revisión realizada\", \"Cumplimiento satisfactorio\"]}"
+      ],
+      "id": "doc36",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 81,
+      "segundos": 13.626741886138916,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Woodgrove Bank\", \"riesgo\": \"BAJO\", \"puntuacion\": 20, \"fecha_revision\": \"2026-12-05\", \"acciones\": [\"Recibido documentación\", \"Pendiente análisis\", \"Equipo de cumplimiento involucrado\"]}"
+      ],
+      "id": "doc37",
+      "tipo": "incompleto"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 69,
+      "segundos": 12.65453815460205,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Lucerne\", \"riesgo\": \"BAJO\", \"puntuacion\": 50, \"fecha_revision\": \"2026-09-18\", \"acciones\": [\"Requerir plan de remediación aprobado por la dirección\"]}"
+      ],
+      "id": "doc38",
+      "tipo": "variante_entidad"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 97,
+      "segundos": 15.50206732749939,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Consolidated y sus sociedades dependientes\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-04-10\", \"acciones\": [\"Evaluar la gestión de proveedores críticos\", \"Aprobar un plan de remediación\", \"Monitorear la implementación del plan de remediación\"]}"
+      ],
+      "id": "doc39",
+      "tipo": "variante_entidad"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 89,
+      "segundos": 14.35619568824768,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Trey Research\", \"riesgo\": \"ALTO\", \"puntuacion\": 80, \"fecha_revision\": \"2023-02-06\", \"acciones\": [\"Aprobar un plan de remediación\", \"Mejorar la continuidad de negocios\", \"Monitorear el progreso del plan de remediación\"]}"
+      ],
+      "id": "doc40",
+      "tipo": "fecha_variada"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 95,
+      "segundos": 15.397287368774414,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Fabrikam Ibérica S.L.\", \"riesgo\": \"ALTO\", \"puntuacion\": 95, \"fecha_revision\": \"2026-05-10\", \"acciones\": [\"Mejora gestión de incidentes de seguridad\", \"Mejora continuidad de negocio\", \"Implementación de medidas correctivas urgentes\"]}"
+      ],
+      "id": "doc41",
+      "tipo": "alto_sin_acciones"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 71,
+      "segundos": 12.445891380310059,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Alpine Ski House\", \"riesgo\": \"BAJO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-05-26\", \"acciones\": [\"Mantiene controles adecuados sobre la protección de datos personales\"]}"
+      ],
+      "id": "doc42",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 96,
+      "segundos": 15.625033855438232,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Margie's Travel\", \"riesgo\": \"ALTO\", \"puntuacion\": 95, \"fecha_revision\": \"2026-09-16\", \"acciones\": [\"Implementar medidas de prevención del blanqueo de capitales\", \"Mejorar la segregación de funciones\", \"Monitoreo continuo de cumplimiento\"]}"
+      ],
+      "id": "doc43",
+      "tipo": "alto_sin_acciones"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 80,
+      "segundos": 13.811157703399658,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Adatum Corporation\", \"riesgo\": \"ALTO\", \"puntuacion\": 95, \"fecha_revision\": \"2026-08-03\", \"acciones\": [\"Mejora la continuidad de negocios\", \"Implementar controles efectivos sobre la protección de datos personales\"]}"
+      ],
+      "id": "doc44",
+      "tipo": "alto_sin_acciones"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 79,
+      "segundos": 13.467439889907837,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Trey Research\", \"riesgo\": \"BAJO\", \"puntuacion\": 25, \"fecha_revision\": \"2026-06-15\", \"acciones\": [\"Recibir documentación\", \"Pendiente de análisis\", \"Comunicar a equipo de cumplimiento\"]}"
+      ],
+      "id": "doc45",
+      "tipo": "incompleto"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 93,
+      "segundos": 15.288318872451782,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Coho Winery\", \"riesgo\": \"ALTO\", \"puntuacion\": 95, \"fecha_revision\": \"2026-09-06\", \"acciones\": [\"Revisar políticas de protección de datos personales\", \"Mejorar gestión de incidentes de seguridad\", \"Implementar medidas correctivas urgentes\"]}"
+      ],
+      "id": "doc46",
+      "tipo": "alto_sin_acciones"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 75,
+      "segundos": 13.007100105285645,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Trey Research\", \"riesgo\": \"BAJO\", \"puntuacion\": 50, \"fecha_revision\": \"2026-05-22\", \"acciones\": [\"Recibir documentación\", \"Pendiente de análisis por el equipo de cumplimiento\"]}"
+      ],
+      "id": "doc47",
+      "tipo": "incompleto"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 74,
+      "segundos": 12.77304983139038,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Woodgrove Bank\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-02-06\", \"acciones\": [\"Exigir rotación de credenciales privilegiadas en 30 días\"]}"
+      ],
+      "id": "doc48",
+      "tipo": "fecha_variada"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": false,
+      "valido": false,
+      "intentos": 1,
+      "tokens": 98,
+      "segundos": 15.517424821853638,
+      "errores_primer_intento": [
+        "value_error"
+      ],
+      "salidas": [
+        "{\"entidad\": \"Wingtip y sus sociedías dependientes\", \"riesgo\": \"BAJO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-11-07\", \"acciones\": [\"Mantiene controles adecuados sobre el registro de actividades de tratamiento\", \"Exige rotar las credenciales privilegiadas en 30 días\"]}"
+      ],
+      "id": "doc49",
+      "tipo": "variante_entidad"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 92,
+      "segundos": 14.836477756500244,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Proseware y sus sociedades dependientes\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-09-13\", \"acciones\": [\"Evaluar plan de remediación\", \"Implementar controles de protección de datos personales\", \"Monitorear cumplimiento regularmente\"]}"
+      ],
+      "id": "doc50",
+      "tipo": "variante_entidad"
+    }
+  ],
+  "D constrained+retry": [
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 69,
+      "segundos": 13.168676853179932,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Margie's Travel\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2023-11-12\", \"acciones\": [\"Revisar el procedimiento\", \"Formar al personal\"]}"
+      ],
+      "id": "doc01",
+      "tipo": "fecha_variada"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 86,
+      "segundos": 14.595743894577026,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Woodgrove Bank\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-04-18\", \"acciones\": [\"Implementar controles de segregación de funciones\", \"Aprobado por la dirección\", \"Monitoreo regular de cumplimiento\"]}"
+      ],
+      "id": "doc02",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 80,
+      "segundos": 14.053058862686157,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"VanArsdel\", \"riesgo\": \"BAJO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-10-12\", \"acciones\": [\"Mantiene controles adecuados\", \"Revisión realizada\", \"Cumplimiento satisfactorio\"]}"
+      ],
+      "id": "doc03",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 70,
+      "segundos": 12.702563762664795,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Relecloud\", \"riesgo\": \"BAJO\", \"puntuacion\": 20, \"fecha_revision\": \"2026-08-07\", \"acciones\": [\"Designar responsable\", \"Fijar revisiones trimestrales\"]}"
+      ],
+      "id": "doc04",
+      "tipo": "fecha_variada"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 67,
+      "segundos": 12.402727365493774,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Blue Yonder Airlines\", \"riesgo\": \"MEDIO\", \"puntuacion\": 50, \"fecha_revision\": \"2026-12-05\", \"acciones\": [\"Plan de remediación aprobado por la dirección\"]}"
+      ],
+      "id": "doc05",
+      "tipo": "fecha_variada"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 98,
+      "segundos": 15.874682664871216,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Relecloud\", \"riesgo\": \"ALTO\", \"puntuacion\": 100, \"fecha_revision\": \"2026-03-05\", \"acciones\": [\"Revisar los requisitos del control de accesos\", \"Revisar los requisitos del registro de actividades de tratamiento\", \"Implementar medidas correctivas inmediatas\"]}"
+      ],
+      "id": "doc06",
+      "tipo": "alto_sin_acciones"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 70,
+      "segundos": 12.456160545349121,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Margie's Travel\", \"riesgo\": \"MEDIO\", \"puntuacion\": 50, \"fecha_revision\": \"2023-03-09\", \"acciones\": [\"Revisar el procedimiento\", \"Formar al personal\"]}"
+      ],
+      "id": "doc07",
+      "tipo": "fecha_variada"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 72,
+      "segundos": 13.201364994049072,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Woodgrove, S.L.U.\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-07-09\", \"acciones\": [\"Revisar el procedimiento\", \"Formar al personal\"]}"
+      ],
+      "id": "doc08",
+      "tipo": "variante_entidad"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 104,
+      "segundos": 16.107359170913696,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Consolidated Messenger\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-02-05\", \"acciones\": [\"Implementar controles efectivos sobre la gestión de incidentes de seguridad\", \"Aprobar un plan de remediación por la dirección\", \"Monitorear la efectividad de los controles implementados\"]}"
+      ],
+      "id": "doc09",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 82,
+      "segundos": 13.531108140945435,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Wingtip Toys\", \"riesgo\": \"BAJO\", \"puntuacion\": 50, \"fecha_revision\": \"2026-01-24\", \"acciones\": [\"Recibir documentación\", \"Análisis por el equipo de cumplimiento\", \"Toma de decisiones futura\"]}"
+      ],
+      "id": "doc10",
+      "tipo": "incompleto"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 69,
+      "segundos": 13.183787107467651,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Trey Research\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-06-22\", \"acciones\": [\"Designar responsable\", \"Fijar revisiones trimestrales\"]}"
+      ],
+      "id": "doc11",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 70,
+      "segundos": 12.564764261245728,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"LUCERNE, S. A.\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-05-05\", \"acciones\": [\"Revisar el procedimiento\", \"Formar al personal\"]}"
+      ],
+      "id": "doc12",
+      "tipo": "variante_entidad"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 65,
+      "segundos": 12.0764799118042,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Bellows\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-12-19\", \"acciones\": [\"Revisar el procedimiento\", \"Formar al personal\"]}"
+      ],
+      "id": "doc13",
+      "tipo": "variante_entidad"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 98,
+      "segundos": 15.55029582977295,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Trey Research\", \"riesgo\": \"ALTO\", \"puntuacion\": 90, \"fecha_revision\": \"2026-06-02\", \"acciones\": [\"Implementar requisitos de segregación de funciones\", \"Establecer controles efectivos sobre el registro de actividades de tratamiento\", \"Monitorear y auditar regularmente la situación\"]}"
+      ],
+      "id": "doc14",
+      "tipo": "alto_sin_acciones"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 69,
+      "segundos": 12.643264770507812,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Margie's Travel\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-05-28\", \"acciones\": [\"Revisar el procedimiento\", \"Formar al personal\"]}"
+      ],
+      "id": "doc15",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 80,
+      "segundos": 13.694034337997437,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Alpine Ski House\", \"riesgo\": \"BAJO\", \"puntuacion\": 1, \"fecha_revision\": \"2026-03-07\", \"acciones\": [\"No presenta incidencias relevantes\", \"Prevención del blanqueo de capitales\", \"Revisión realizada\"]}"
+      ],
+      "id": "doc16",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 67,
+      "segundos": 12.293140888214111,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Coho Winery\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-11-05\", \"acciones\": [\"Revisar el procedimiento\", \"Formar al personal\"]}"
+      ],
+      "id": "doc17",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 84,
+      "segundos": 13.587843418121338,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Wingtip Toys\", \"riesgo\": \"BAJO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-02-05\", \"acciones\": [\"cumple los requisitos de la protección de datos personales\", \"observaciones menores\", \"revisión realizada\"]}"
+      ],
+      "id": "doc18",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 75,
+      "segundos": 13.532488584518433,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"LITWARE, S. A.\", \"riesgo\": \"BAJO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-10-21\", \"acciones\": [\"Designar responsable\", \"Fijar revisiones trimestrales\"]}"
+      ],
+      "id": "doc19",
+      "tipo": "variante_entidad"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 105,
+      "segundos": 16.395448923110962,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Margie's Travel\", \"riesgo\": \"ALTO\", \"puntuacion\": 90, \"fecha_revision\": \"2026-02-05\", \"acciones\": [\"Incumplimiento de requisitos de prevención del blanqueo de capitales\", \"Deficiencias graves en la gestión de incidentes de seguridad\", \"Situación considerada crítica\"]}"
+      ],
+      "id": "doc20",
+      "tipo": "alto_sin_acciones"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 72,
+      "segundos": 15.129507780075073,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Fourth Coffee\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-08-27\", \"acciones\": [\"Designar responsable\", \"Fijar revisiones trimestrales\"]}"
+      ],
+      "id": "doc21",
+      "tipo": "largo_ruidoso"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 84,
+      "segundos": 13.803463220596313,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"VanArsdel\", \"riesgo\": \"BAJO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-01-13\", \"acciones\": [\"Cumple los requisitos de segregación de funciones\", \"Observaciones menores\", \"Revisión realizada\"]}"
+      ],
+      "id": "doc22",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 71,
+      "segundos": 12.52611756324768,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Alpine Ski House\", \"riesgo\": \"BAJO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-07-24\", \"acciones\": [\"Mantiene controles adecuados sobre la protección de datos personales\"]}"
+      ],
+      "id": "doc23",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 73,
+      "segundos": 12.74944257736206,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Margie's Travel\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2023-04-01\", \"acciones\": [\"Designar responsable\", \"Fijar revisiones trimestrales\"]}"
+      ],
+      "id": "doc24",
+      "tipo": "incompleto"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 104,
+      "segundos": 15.946330547332764,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Woodgrove Bank\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-03-22\", \"acciones\": [\"Aplicar controles de continuidad de negocio uniformemente\", \"Aprobar plan de remediación por la dirección\", \"Monitorear la aplicación de los controles de continuidad de negocio regularmente\"]}"
+      ],
+      "id": "doc25",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 95,
+      "segundos": 15.731008291244507,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Lucerne Publishing\", \"riesgo\": \"ALTO\", \"puntuacion\": 90, \"fecha_revision\": \"2026-01-25\", \"acciones\": [\"Implementar requisitos de segregación de funciones\", \"Mejorar gestión de proveedores críticos\", \"Inspeccionar y monitorear la situación regularmente\"]}"
+      ],
+      "id": "doc26",
+      "tipo": "alto_sin_acciones"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 109,
+      "segundos": 18.510836362838745,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Bellows College\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-12-23\", \"acciones\": [\"Rotar las credenciales privilegiadas en 30 días\", \"Revisar 42 expedientes seleccionados por muestreo aleatorio\", \"Celebrar reunión de cierre en las oficinas centrales con la dirección\"]}"
+      ],
+      "id": "doc27",
+      "tipo": "largo_ruidoso"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 66,
+      "segundos": 12.271892070770264,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Blue Yonder Airlines\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-10-09\", \"acciones\": [\"Revisar el procedimiento\", \"Formar al personal\"]}"
+      ],
+      "id": "doc28",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 69,
+      "segundos": 12.516320943832397,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Blue Yonder Airlines\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-04-07\", \"acciones\": [\"Rotar las credenciales privilegiadas en 30 días\"]}"
+      ],
+      "id": "doc29",
+      "tipo": "fecha_variada"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 92,
+      "segundos": 14.76703429222107,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Woodgrove y sus sociedades dependientes\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-11-23\", \"acciones\": [\"Evaluar documentación sobre protección de datos personales\", \"Crear un plan de remediación\", \"Aprobado por la dirección\"]}"
+      ],
+      "id": "doc30",
+      "tipo": "variante_entidad"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 71,
+      "segundos": 14.600035667419434,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Contoso S.A.\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-08-08\", \"acciones\": [\"Designar responsable\", \"Fijar revisiones trimestrales\"]}"
+      ],
+      "id": "doc31",
+      "tipo": "largo_ruidoso"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 99,
+      "segundos": 17.54642391204834,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Adatum Corporation\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-01-19\", \"acciones\": [\"Revisar los controles de segregación de funciones\", \"Desarrollar un plan de remediación aprobado por la dirección\", \"Monitorear la implementación del plan de remediación\"]}"
+      ],
+      "id": "doc32",
+      "tipo": "largo_ruidoso"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 103,
+      "segundos": 18.0643253326416,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Contoso S.A.\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-07-23\", \"acciones\": [\"Exigir rotar las credenciales privilegiadas en 30 días\", \"Reunión de cierre en las oficinas centrales con la dirección\", \"Colaboración del personal entrevistado\"]}"
+      ],
+      "id": "doc33",
+      "tipo": "largo_ruidoso"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 73,
+      "segundos": 12.760343313217163,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"WOODGROVE, S. A.\", \"riesgo\": \"BAJO\", \"puntuacion\": 20, \"fecha_revision\": \"2026-06-17\", \"acciones\": [\"Revisar el procedimiento\", \"Formar al personal\"]}"
+      ],
+      "id": "doc34",
+      "tipo": "variante_entidad"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 70,
+      "segundos": 12.508867979049683,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"VanArsdel\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-12-26\", \"acciones\": [\"Requerir plan de remediación aprobado por la dirección\"]}"
+      ],
+      "id": "doc35",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 80,
+      "segundos": 13.348798274993896,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Woodgrove Bank\", \"riesgo\": \"BAJO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-11-15\", \"acciones\": [\"Mantiene controles adecuados\", \"Revisión realizada\", \"Cumplimiento satisfactorio\"]}"
+      ],
+      "id": "doc36",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 81,
+      "segundos": 13.56145453453064,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Woodgrove Bank\", \"riesgo\": \"BAJO\", \"puntuacion\": 20, \"fecha_revision\": \"2026-12-05\", \"acciones\": [\"Recibido documentación\", \"Pendiente análisis\", \"Equipo de cumplimiento involucrado\"]}"
+      ],
+      "id": "doc37",
+      "tipo": "incompleto"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 69,
+      "segundos": 12.948109149932861,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Lucerne\", \"riesgo\": \"BAJO\", \"puntuacion\": 50, \"fecha_revision\": \"2026-09-18\", \"acciones\": [\"Requerir plan de remediación aprobado por la dirección\"]}"
+      ],
+      "id": "doc38",
+      "tipo": "variante_entidad"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 97,
+      "segundos": 15.547275304794312,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Consolidated y sus sociedades dependientes\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-04-10\", \"acciones\": [\"Evaluar la gestión de proveedores críticos\", \"Aprobar un plan de remediación\", \"Monitorear la implementación del plan de remediación\"]}"
+      ],
+      "id": "doc39",
+      "tipo": "variante_entidad"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 89,
+      "segundos": 14.391306638717651,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Trey Research\", \"riesgo\": \"ALTO\", \"puntuacion\": 80, \"fecha_revision\": \"2023-02-06\", \"acciones\": [\"Aprobar un plan de remediación\", \"Mejorar la continuidad de negocios\", \"Monitorear el progreso del plan de remediación\"]}"
+      ],
+      "id": "doc40",
+      "tipo": "fecha_variada"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 95,
+      "segundos": 15.492792844772339,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Fabrikam Ibérica S.L.\", \"riesgo\": \"ALTO\", \"puntuacion\": 95, \"fecha_revision\": \"2026-05-10\", \"acciones\": [\"Mejora gestión de incidentes de seguridad\", \"Mejora continuidad de negocio\", \"Implementación de medidas correctivas urgentes\"]}"
+      ],
+      "id": "doc41",
+      "tipo": "alto_sin_acciones"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 71,
+      "segundos": 12.389212608337402,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Alpine Ski House\", \"riesgo\": \"BAJO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-05-26\", \"acciones\": [\"Mantiene controles adecuados sobre la protección de datos personales\"]}"
+      ],
+      "id": "doc42",
+      "tipo": "limpio"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 96,
+      "segundos": 15.788653373718262,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Margie's Travel\", \"riesgo\": \"ALTO\", \"puntuacion\": 95, \"fecha_revision\": \"2026-09-16\", \"acciones\": [\"Implementar medidas de prevención del blanqueo de capitales\", \"Mejorar la segregación de funciones\", \"Monitoreo continuo de cumplimiento\"]}"
+      ],
+      "id": "doc43",
+      "tipo": "alto_sin_acciones"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 80,
+      "segundos": 13.791045904159546,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Adatum Corporation\", \"riesgo\": \"ALTO\", \"puntuacion\": 95, \"fecha_revision\": \"2026-08-03\", \"acciones\": [\"Mejora la continuidad de negocios\", \"Implementar controles efectivos sobre la protección de datos personales\"]}"
+      ],
+      "id": "doc44",
+      "tipo": "alto_sin_acciones"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 79,
+      "segundos": 13.332786560058594,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Trey Research\", \"riesgo\": \"BAJO\", \"puntuacion\": 25, \"fecha_revision\": \"2026-06-15\", \"acciones\": [\"Recibir documentación\", \"Pendiente de análisis\", \"Comunicar a equipo de cumplimiento\"]}"
+      ],
+      "id": "doc45",
+      "tipo": "incompleto"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 93,
+      "segundos": 15.319977760314941,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Coho Winery\", \"riesgo\": \"ALTO\", \"puntuacion\": 95, \"fecha_revision\": \"2026-09-06\", \"acciones\": [\"Revisar políticas de protección de datos personales\", \"Mejorar gestión de incidentes de seguridad\", \"Implementar medidas correctivas urgentes\"]}"
+      ],
+      "id": "doc46",
+      "tipo": "alto_sin_acciones"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 75,
+      "segundos": 13.001601934432983,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Trey Research\", \"riesgo\": \"BAJO\", \"puntuacion\": 50, \"fecha_revision\": \"2026-05-22\", \"acciones\": [\"Recibir documentación\", \"Pendiente de análisis por el equipo de cumplimiento\"]}"
+      ],
+      "id": "doc47",
+      "tipo": "incompleto"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 74,
+      "segundos": 13.010564804077148,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Woodgrove Bank\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-02-06\", \"acciones\": [\"Exigir rotación de credenciales privilegiadas en 30 días\"]}"
+      ],
+      "id": "doc48",
+      "tipo": "fecha_variada"
+    },
+    {
+      "estricto_primer_intento": false,
+      "valido_primer_intento": false,
+      "valido": true,
+      "intentos": 2,
+      "tokens": 196,
+      "segundos": 35.018126487731934,
+      "errores_primer_intento": [
+        "value_error"
+      ],
+      "salidas": [
+        "{\"entidad\": \"Wingtip y sus sociedías dependientes\", \"riesgo\": \"BAJO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-11-07\", \"acciones\": [\"Mantiene controles adecuados sobre el registro de actividades de tratamiento\", \"Exige rotar las credenciales privilegiadas en 30 días\"]}",
+        "{\"entidad\": \"Wingtip y sus sociedades dependientes\", \"riesgo\": \"BAJO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-11-07\", \"acciones\": [\"Mantiene controles adecuados sobre el registro de actividades de tratamiento\", \"Exige rotar las credenciales privilegiadas en 30 días\"]}"
+      ],
+      "id": "doc49",
+      "tipo": "variante_entidad"
+    },
+    {
+      "estricto_primer_intento": true,
+      "valido_primer_intento": true,
+      "valido": true,
+      "intentos": 1,
+      "tokens": 92,
+      "segundos": 14.950067043304443,
+      "errores_primer_intento": [],
+      "salidas": [
+        "{\"entidad\": \"Proseware y sus sociedades dependientes\", \"riesgo\": \"ALTO\", \"puntuacion\": 85, \"fecha_revision\": \"2026-09-13\", \"acciones\": [\"Evaluar plan de remediación\", \"Implementar controles de protección de datos personales\", \"Monitorear cumplimiento regularmente\"]}"
+      ],
+      "id": "doc50",
+      "tipo": "variante_entidad"
+    }
+  ]
+}
