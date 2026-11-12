@@ -1,0 +1,339 @@
+nohup: ignoring input
+Wed Nov 11 22:46:12 UTC 2026
+50 documentos, 4 estrategias
+[1/50] doc01 (fecha_variada) A prompt: válido en 1 intento(s), 24 s
+[1/50] doc01 (fecha_variada) B retry: válido en 1 intento(s), 22 s
+[1/50] doc01 (fecha_variada) C constrained: válido en 1 intento(s), 13 s
+[1/50] doc01 (fecha_variada) D constrained+retry: válido en 1 intento(s), 13 s
+[2/50] doc02 (limpio) A prompt: válido en 1 intento(s), 32 s
+[2/50] doc02 (limpio) B retry: válido en 1 intento(s), 31 s
+[2/50] doc02 (limpio) C constrained: válido en 1 intento(s), 15 s
+[2/50] doc02 (limpio) D constrained+retry: válido en 1 intento(s), 15 s
+[3/50] doc03 (limpio) A prompt: válido en 1 intento(s), 28 s
+[3/50] doc03 (limpio) B retry: válido en 1 intento(s), 27 s
+[3/50] doc03 (limpio) C constrained: válido en 1 intento(s), 14 s
+[3/50] doc03 (limpio) D constrained+retry: válido en 1 intento(s), 14 s
+[4/50] doc04 (fecha_variada) A prompt: válido en 1 intento(s), 21 s
+[4/50] doc04 (fecha_variada) B retry: válido en 1 intento(s), 21 s
+[4/50] doc04 (fecha_variada) C constrained: válido en 1 intento(s), 13 s
+[4/50] doc04 (fecha_variada) D constrained+retry: válido en 1 intento(s), 13 s
+[5/50] doc05 (fecha_variada) A prompt: válido en 1 intento(s), 22 s
+[5/50] doc05 (fecha_variada) B retry: válido en 1 intento(s), 22 s
+[5/50] doc05 (fecha_variada) C constrained: válido en 1 intento(s), 12 s
+[5/50] doc05 (fecha_variada) D constrained+retry: válido en 1 intento(s), 12 s
+[6/50] doc06 (alto_sin_acciones) A prompt: válido en 1 intento(s), 17 s
+[6/50] doc06 (alto_sin_acciones) B retry: válido en 1 intento(s), 17 s
+[6/50] doc06 (alto_sin_acciones) C constrained: válido en 1 intento(s), 16 s
+[6/50] doc06 (alto_sin_acciones) D constrained+retry: válido en 1 intento(s), 16 s
+[7/50] doc07 (fecha_variada) A prompt: válido en 1 intento(s), 21 s
+[7/50] doc07 (fecha_variada) B retry: válido en 1 intento(s), 21 s
+[7/50] doc07 (fecha_variada) C constrained: válido en 1 intento(s), 12 s
+[7/50] doc07 (fecha_variada) D constrained+retry: válido en 1 intento(s), 12 s
+[8/50] doc08 (variante_entidad) A prompt: NO válido en 1 intento(s), 23 s
+[8/50] doc08 (variante_entidad) B retry: NO válido en 3 intento(s), 96 s
+[8/50] doc08 (variante_entidad) C constrained: válido en 1 intento(s), 14 s
+[8/50] doc08 (variante_entidad) D constrained+retry: válido en 1 intento(s), 13 s
+[9/50] doc09 (limpio) A prompt: válido en 1 intento(s), 17 s
+[9/50] doc09 (limpio) B retry: válido en 1 intento(s), 17 s
+[9/50] doc09 (limpio) C constrained: válido en 1 intento(s), 16 s
+[9/50] doc09 (limpio) D constrained+retry: válido en 1 intento(s), 16 s
+[10/50] doc10 (incompleto) A prompt: válido en 1 intento(s), 29 s
+[10/50] doc10 (incompleto) B retry: válido en 1 intento(s), 29 s
+[10/50] doc10 (incompleto) C constrained: válido en 1 intento(s), 14 s
+[10/50] doc10 (incompleto) D constrained+retry: válido en 1 intento(s), 14 s
+[11/50] doc11 (limpio) A prompt: válido en 1 intento(s), 28 s
+[11/50] doc11 (limpio) B retry: válido en 1 intento(s), 28 s
+[11/50] doc11 (limpio) C constrained: válido en 1 intento(s), 13 s
+[11/50] doc11 (limpio) D constrained+retry: válido en 1 intento(s), 13 s
+[12/50] doc12 (variante_entidad) A prompt: válido en 1 intento(s), 35 s
+[12/50] doc12 (variante_entidad) B retry: válido en 1 intento(s), 37 s
+[12/50] doc12 (variante_entidad) C constrained: válido en 1 intento(s), 13 s
+[12/50] doc12 (variante_entidad) D constrained+retry: válido en 1 intento(s), 13 s
+[13/50] doc13 (variante_entidad) A prompt: válido en 1 intento(s), 19 s
+[13/50] doc13 (variante_entidad) B retry: válido en 1 intento(s), 19 s
+[13/50] doc13 (variante_entidad) C constrained: válido en 1 intento(s), 12 s
+[13/50] doc13 (variante_entidad) D constrained+retry: válido en 1 intento(s), 12 s
+[14/50] doc14 (alto_sin_acciones) A prompt: válido en 1 intento(s), 17 s
+[14/50] doc14 (alto_sin_acciones) B retry: válido en 1 intento(s), 17 s
+[14/50] doc14 (alto_sin_acciones) C constrained: válido en 1 intento(s), 16 s
+[14/50] doc14 (alto_sin_acciones) D constrained+retry: válido en 1 intento(s), 16 s
+[15/50] doc15 (limpio) A prompt: válido en 1 intento(s), 28 s
+[15/50] doc15 (limpio) B retry: válido en 1 intento(s), 28 s
+[15/50] doc15 (limpio) C constrained: válido en 1 intento(s), 12 s
+[15/50] doc15 (limpio) D constrained+retry: válido en 1 intento(s), 13 s
+[16/50] doc16 (limpio) A prompt: válido en 1 intento(s), 15 s
+[16/50] doc16 (limpio) B retry: válido en 1 intento(s), 15 s
+[16/50] doc16 (limpio) C constrained: válido en 1 intento(s), 14 s
+[16/50] doc16 (limpio) D constrained+retry: válido en 1 intento(s), 14 s
+[17/50] doc17 (limpio) A prompt: válido en 1 intento(s), 27 s
+[17/50] doc17 (limpio) B retry: válido en 1 intento(s), 27 s
+[17/50] doc17 (limpio) C constrained: válido en 1 intento(s), 12 s
+[17/50] doc17 (limpio) D constrained+retry: válido en 1 intento(s), 12 s
+[18/50] doc18 (limpio) A prompt: válido en 1 intento(s), 15 s
+[18/50] doc18 (limpio) B retry: válido en 1 intento(s), 15 s
+[18/50] doc18 (limpio) C constrained: válido en 1 intento(s), 14 s
+[18/50] doc18 (limpio) D constrained+retry: válido en 1 intento(s), 14 s
+[19/50] doc19 (variante_entidad) A prompt: válido en 1 intento(s), 41 s
+[19/50] doc19 (variante_entidad) B retry: válido en 1 intento(s), 41 s
+[19/50] doc19 (variante_entidad) C constrained: válido en 1 intento(s), 13 s
+[19/50] doc19 (variante_entidad) D constrained+retry: válido en 1 intento(s), 14 s
+[20/50] doc20 (alto_sin_acciones) A prompt: válido en 1 intento(s), 19 s
+[20/50] doc20 (alto_sin_acciones) B retry: válido en 1 intento(s), 19 s
+[20/50] doc20 (alto_sin_acciones) C constrained: válido en 1 intento(s), 16 s
+[20/50] doc20 (alto_sin_acciones) D constrained+retry: válido en 1 intento(s), 16 s
+[21/50] doc21 (largo_ruidoso) A prompt: válido en 1 intento(s), 23 s
+[21/50] doc21 (largo_ruidoso) B retry: válido en 1 intento(s), 23 s
+[21/50] doc21 (largo_ruidoso) C constrained: válido en 1 intento(s), 15 s
+[21/50] doc21 (largo_ruidoso) D constrained+retry: válido en 1 intento(s), 15 s
+[22/50] doc22 (limpio) A prompt: válido en 1 intento(s), 15 s
+[22/50] doc22 (limpio) B retry: válido en 1 intento(s), 15 s
+[22/50] doc22 (limpio) C constrained: válido en 1 intento(s), 14 s
+[22/50] doc22 (limpio) D constrained+retry: válido en 1 intento(s), 14 s
+[23/50] doc23 (limpio) A prompt: válido en 1 intento(s), 26 s
+[23/50] doc23 (limpio) B retry: válido en 1 intento(s), 26 s
+[23/50] doc23 (limpio) C constrained: válido en 1 intento(s), 12 s
+[23/50] doc23 (limpio) D constrained+retry: válido en 1 intento(s), 13 s
+[24/50] doc24 (incompleto) A prompt: válido en 1 intento(s), 26 s
+[24/50] doc24 (incompleto) B retry: válido en 1 intento(s), 26 s
+[24/50] doc24 (incompleto) C constrained: válido en 1 intento(s), 13 s
+[24/50] doc24 (incompleto) D constrained+retry: válido en 1 intento(s), 13 s
+[25/50] doc25 (limpio) A prompt: válido en 1 intento(s), 19 s
+[25/50] doc25 (limpio) B retry: válido en 1 intento(s), 19 s
+[25/50] doc25 (limpio) C constrained: válido en 1 intento(s), 16 s
+[25/50] doc25 (limpio) D constrained+retry: válido en 1 intento(s), 16 s
+[26/50] doc26 (alto_sin_acciones) A prompt: válido en 1 intento(s), 17 s
+[26/50] doc26 (alto_sin_acciones) B retry: válido en 1 intento(s), 17 s
+[26/50] doc26 (alto_sin_acciones) C constrained: válido en 1 intento(s), 16 s
+[26/50] doc26 (alto_sin_acciones) D constrained+retry: válido en 1 intento(s), 16 s
+[27/50] doc27 (largo_ruidoso) A prompt: válido en 1 intento(s), 27 s
+[27/50] doc27 (largo_ruidoso) B retry: válido en 1 intento(s), 27 s
+[27/50] doc27 (largo_ruidoso) C constrained: válido en 1 intento(s), 18 s
+[27/50] doc27 (largo_ruidoso) D constrained+retry: válido en 1 intento(s), 19 s
+[28/50] doc28 (limpio) A prompt: válido en 1 intento(s), 31 s
+[28/50] doc28 (limpio) B retry: válido en 1 intento(s), 31 s
+[28/50] doc28 (limpio) C constrained: válido en 1 intento(s), 12 s
+[28/50] doc28 (limpio) D constrained+retry: válido en 1 intento(s), 12 s
+[29/50] doc29 (fecha_variada) A prompt: válido en 1 intento(s), 19 s
+[29/50] doc29 (fecha_variada) B retry: válido en 1 intento(s), 20 s
+[29/50] doc29 (fecha_variada) C constrained: válido en 1 intento(s), 13 s
+[29/50] doc29 (fecha_variada) D constrained+retry: válido en 1 intento(s), 13 s
+[30/50] doc30 (variante_entidad) A prompt: válido en 1 intento(s), 19 s
+[30/50] doc30 (variante_entidad) B retry: válido en 1 intento(s), 19 s
+[30/50] doc30 (variante_entidad) C constrained: válido en 1 intento(s), 15 s
+[30/50] doc30 (variante_entidad) D constrained+retry: válido en 1 intento(s), 15 s
+[31/50] doc31 (largo_ruidoso) A prompt: válido en 1 intento(s), 24 s
+[31/50] doc31 (largo_ruidoso) B retry: válido en 1 intento(s), 24 s
+[31/50] doc31 (largo_ruidoso) C constrained: válido en 1 intento(s), 15 s
+[31/50] doc31 (largo_ruidoso) D constrained+retry: válido en 1 intento(s), 15 s
+[32/50] doc32 (largo_ruidoso) A prompt: válido en 1 intento(s), 29 s
+[32/50] doc32 (largo_ruidoso) B retry: válido en 1 intento(s), 29 s
+[32/50] doc32 (largo_ruidoso) C constrained: válido en 1 intento(s), 18 s
+[32/50] doc32 (largo_ruidoso) D constrained+retry: válido en 1 intento(s), 18 s
+[33/50] doc33 (largo_ruidoso) A prompt: válido en 1 intento(s), 28 s
+[33/50] doc33 (largo_ruidoso) B retry: válido en 1 intento(s), 28 s
+[33/50] doc33 (largo_ruidoso) C constrained: válido en 1 intento(s), 18 s
+[33/50] doc33 (largo_ruidoso) D constrained+retry: válido en 1 intento(s), 18 s
+[34/50] doc34 (variante_entidad) A prompt: válido en 1 intento(s), 16 s
+[34/50] doc34 (variante_entidad) B retry: válido en 1 intento(s), 15 s
+[34/50] doc34 (variante_entidad) C constrained: válido en 1 intento(s), 13 s
+[34/50] doc34 (variante_entidad) D constrained+retry: válido en 1 intento(s), 13 s
+[35/50] doc35 (limpio) A prompt: válido en 1 intento(s), 41 s
+[35/50] doc35 (limpio) B retry: válido en 1 intento(s), 41 s
+[35/50] doc35 (limpio) C constrained: válido en 1 intento(s), 13 s
+[35/50] doc35 (limpio) D constrained+retry: válido en 1 intento(s), 13 s
+[36/50] doc36 (limpio) A prompt: válido en 1 intento(s), 17 s
+[36/50] doc36 (limpio) B retry: válido en 1 intento(s), 17 s
+[36/50] doc36 (limpio) C constrained: válido en 1 intento(s), 13 s
+[36/50] doc36 (limpio) D constrained+retry: válido en 1 intento(s), 13 s
+[37/50] doc37 (incompleto) A prompt: NO válido en 1 intento(s), 25 s
+[37/50] doc37 (incompleto) B retry: NO válido en 3 intento(s), 104 s
+[37/50] doc37 (incompleto) C constrained: válido en 1 intento(s), 14 s
+[37/50] doc37 (incompleto) D constrained+retry: válido en 1 intento(s), 14 s
+[38/50] doc38 (variante_entidad) A prompt: válido en 1 intento(s), 41 s
+[38/50] doc38 (variante_entidad) B retry: válido en 1 intento(s), 41 s
+[38/50] doc38 (variante_entidad) C constrained: válido en 1 intento(s), 13 s
+[38/50] doc38 (variante_entidad) D constrained+retry: válido en 1 intento(s), 13 s
+[39/50] doc39 (variante_entidad) A prompt: válido en 1 intento(s), 34 s
+[39/50] doc39 (variante_entidad) B retry: válido en 1 intento(s), 34 s
+[39/50] doc39 (variante_entidad) C constrained: válido en 1 intento(s), 16 s
+[39/50] doc39 (variante_entidad) D constrained+retry: válido en 1 intento(s), 16 s
+[40/50] doc40 (fecha_variada) A prompt: válido en 1 intento(s), 21 s
+[40/50] doc40 (fecha_variada) B retry: válido en 1 intento(s), 21 s
+[40/50] doc40 (fecha_variada) C constrained: válido en 1 intento(s), 14 s
+[40/50] doc40 (fecha_variada) D constrained+retry: válido en 1 intento(s), 14 s
+[41/50] doc41 (alto_sin_acciones) A prompt: válido en 1 intento(s), 17 s
+[41/50] doc41 (alto_sin_acciones) B retry: válido en 1 intento(s), 17 s
+[41/50] doc41 (alto_sin_acciones) C constrained: válido en 1 intento(s), 15 s
+[41/50] doc41 (alto_sin_acciones) D constrained+retry: válido en 1 intento(s), 15 s
+[42/50] doc42 (limpio) A prompt: válido en 1 intento(s), 17 s
+[42/50] doc42 (limpio) B retry: válido en 1 intento(s), 16 s
+[42/50] doc42 (limpio) C constrained: válido en 1 intento(s), 12 s
+[42/50] doc42 (limpio) D constrained+retry: válido en 1 intento(s), 12 s
+[43/50] doc43 (alto_sin_acciones) A prompt: válido en 1 intento(s), 17 s
+[43/50] doc43 (alto_sin_acciones) B retry: válido en 1 intento(s), 17 s
+[43/50] doc43 (alto_sin_acciones) C constrained: válido en 1 intento(s), 16 s
+[43/50] doc43 (alto_sin_acciones) D constrained+retry: válido en 1 intento(s), 16 s
+[44/50] doc44 (alto_sin_acciones) A prompt: válido en 1 intento(s), 15 s
+[44/50] doc44 (alto_sin_acciones) B retry: válido en 1 intento(s), 15 s
+[44/50] doc44 (alto_sin_acciones) C constrained: válido en 1 intento(s), 14 s
+[44/50] doc44 (alto_sin_acciones) D constrained+retry: válido en 1 intento(s), 14 s
+[45/50] doc45 (incompleto) A prompt: NO válido en 1 intento(s), 28 s
+[45/50] doc45 (incompleto) B retry: NO válido en 3 intento(s), 99 s
+[45/50] doc45 (incompleto) C constrained: válido en 1 intento(s), 13 s
+[45/50] doc45 (incompleto) D constrained+retry: válido en 1 intento(s), 13 s
+[46/50] doc46 (alto_sin_acciones) A prompt: válido en 1 intento(s), 17 s
+[46/50] doc46 (alto_sin_acciones) B retry: válido en 1 intento(s), 18 s
+[46/50] doc46 (alto_sin_acciones) C constrained: válido en 1 intento(s), 15 s
+[46/50] doc46 (alto_sin_acciones) D constrained+retry: válido en 1 intento(s), 15 s
+[47/50] doc47 (incompleto) A prompt: válido en 1 intento(s), 23 s
+[47/50] doc47 (incompleto) B retry: válido en 1 intento(s), 22 s
+[47/50] doc47 (incompleto) C constrained: válido en 1 intento(s), 13 s
+[47/50] doc47 (incompleto) D constrained+retry: válido en 1 intento(s), 13 s
+[48/50] doc48 (fecha_variada) A prompt: válido en 1 intento(s), 23 s
+[48/50] doc48 (fecha_variada) B retry: válido en 1 intento(s), 23 s
+[48/50] doc48 (fecha_variada) C constrained: válido en 1 intento(s), 13 s
+[48/50] doc48 (fecha_variada) D constrained+retry: válido en 1 intento(s), 13 s
+[49/50] doc49 (variante_entidad) A prompt: NO válido en 1 intento(s), 41 s
+[49/50] doc49 (variante_entidad) B retry: válido en 2 intento(s), 86 s
+[49/50] doc49 (variante_entidad) C constrained: NO válido en 1 intento(s), 16 s
+[49/50] doc49 (variante_entidad) D constrained+retry: válido en 2 intento(s), 35 s
+[50/50] doc50 (variante_entidad) A prompt: válido en 1 intento(s), 21 s
+[50/50] doc50 (variante_entidad) B retry: válido en 1 intento(s), 20 s
+[50/50] doc50 (variante_entidad) C constrained: válido en 1 intento(s), 15 s
+[50/50] doc50 (variante_entidad) D constrained+retry: válido en 1 intento(s), 15 s
+
+Estrategia                   N Estricto Tolerante  Final  Intentos  Tokens    Seg
+A prompt                    50      0%       92%    92%      1.00     178   23.9
+B retry                     50      0%       92%    94%      1.14     210   29.2
+C constrained               50     98%       98%    98%      1.00      82   14.1
+D constrained+retry         50     98%       98%   100%      1.02      84   14.5
+Estricto: salida en bruto válida al primer intento. Tolerante: válida al primer intento
+tras limpiar el envoltorio. Final: válida tras los reintentos.
+
+Tipo: fecha_variada          N Estricto Tolerante  Final  Intentos  Tokens    Seg
+A prompt                     7      0%      100%   100%      1.00     156   21.6
+B retry                      7      0%      100%   100%      1.00     156   21.3
+C constrained                7    100%      100%   100%      1.00      73   13.0
+D constrained+retry          7    100%      100%   100%      1.00      73   12.9
+
+Tipo: limpio                 N Estricto Tolerante  Final  Intentos  Tokens    Seg
+A prompt                    15      0%      100%   100%      1.00     179   23.7
+B retry                     15      0%      100%   100%      1.00     179   23.6
+C constrained               15    100%      100%   100%      1.00      79   13.5
+D constrained+retry         15    100%      100%   100%      1.00      79   13.5
+
+Tipo: alto_sin_acciones      N Estricto Tolerante  Final  Intentos  Tokens    Seg
+A prompt                     8      0%      100%   100%      1.00     112   17.1
+B retry                      8      0%      100%   100%      1.00     112   17.2
+C constrained                8    100%      100%   100%      1.00      95   15.5
+D constrained+retry          8    100%      100%   100%      1.00      95   15.5
+
+Tipo: variante_entidad       N Estricto Tolerante  Final  Intentos  Tokens    Seg
+A prompt                    10      0%       80%    80%      1.00     230   28.9
+B retry                     10      0%       80%    90%      1.30     302   40.9
+C constrained               10     90%       90%    90%      1.00      80   13.9
+D constrained+retry         10     90%       90%   100%      1.10      90   15.7
+
+Tipo: incompleto             N Estricto Tolerante  Final  Intentos  Tokens    Seg
+A prompt                     5      0%       60%    60%      1.00     207   26.2
+B retry                      5      0%       60%    60%      1.80     379   56.1
+C constrained                5    100%      100%   100%      1.00      78   13.3
+D constrained+retry          5    100%      100%   100%      1.00      78   13.2
+
+Tipo: largo_ruidoso          N Estricto Tolerante  Final  Intentos  Tokens    Seg
+A prompt                     5      0%      100%   100%      1.00     182   26.1
+B retry                      5      0%      100%   100%      1.00     182   26.1
+C constrained                5    100%      100%   100%      1.00      91   16.8
+D constrained+retry          5    100%      100%   100%      1.00      91   16.8
+
+Tipos de error en el primer intento (modo tolerante):
+  A prompt              {'extra_forbidden': 6, 'value_error': 1}
+  B retry               {'extra_forbidden': 6, 'value_error': 1}
+  C constrained         {'value_error': 1}
+  D constrained+retry   {'value_error': 1}
+Wed Nov 11 23:54:18 UTC 2026
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] This model config has set a `rope_parameters['original_max_position_embeddings']` field, to be used together with `max_position_embeddings` to determine a scaling factor. Please set the `factor` field of `rope_parameters`with this ratio instead -- we recommend the use of this field over `original_max_position_embeddings`, as it is compatible with most model architectures.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading HuggingFace model from microsoft/Phi-3.5-mini-instruct
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [02:30<02:30, 150.91s/it]Fetching 2 files: 100%|██████████| 2/2 [03:50<00:00, 108.88s/it]Fetching 2 files: 100%|██████████| 2/2 [03:50<00:00, 115.19s/it]
+Loading weights:   0%|          | 0/195 [00:00<?, ?it/s]Loading weights: 100%|██████████| 195/195 [00:00<00:00, 3532.98it/s]
+Preparing model: 0mod [00:00, ?mod/s]Preparing model: 128mod [00:00, 59672.21mod/s, module=model.layers.31.mlp.down_proj]
+Traceback (most recent call last):
+  File "/usr/local/bin/olive", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/olive/cli/launcher.py", line 79, in main
+    service.run()
+  File "/usr/local/lib/python3.12/site-packages/olive/telemetry/telemetry_extensions.py", line 137, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/olive/cli/optimize.py", line 222, in run
+    return self._run_workflow()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/olive/cli/base.py", line 118, in _run_workflow
+    workflow_output = olive_run(run_config)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/olive/workflows/run/run.py", line 178, in run
+    return run_engine(package_config, run_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/olive/workflows/run/run.py", line 139, in run_engine
+    return engine.run(
+           ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/olive/telemetry/telemetry_extensions.py", line 137, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/olive/engine/engine.py", line 209, in run
+    self.run_accelerator(
+  File "/usr/local/lib/python3.12/site-packages/olive/engine/engine.py", line 284, in run_accelerator
+    self._run_no_search(input_model_config, input_model_id, accelerator_spec, artifacts_dir)
+  File "/usr/local/lib/python3.12/site-packages/olive/engine/engine.py", line 328, in _run_no_search
+    should_prune, signal, model_ids = self._run_passes(input_model_config, input_model_id, accelerator_spec)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/olive/engine/engine.py", line 621, in _run_passes
+    model_config, model_id = self._run_pass(
+                             ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/olive/engine/engine.py", line 716, in _run_pass
+    output_model_config = host.run_pass(p, input_model_config, output_model_path)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/olive/systems/local.py", line 45, in run_pass
+    output_model = the_pass.run(model, output_model_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/olive/passes/olive_pass.py", line 243, in run
+    output_model = self._run_for_config(model, self.config, output_model_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 158, in no_grad
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/olive/passes/pytorch/gptq.py", line 100, in _run_for_config
+    device = run_layerwise_quantization(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 158, in no_grad
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/olive/passes/pytorch/quant_utils.py", line 471, in run_layerwise_quantization
+    hidden_states, layer_args, layer_kwargs = get_layer_inputs_for_calibration(model, wrapper, data_config, device)
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 158, in no_grad
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/olive/passes/pytorch/quant_utils.py", line 383, in get_layer_inputs_for_calibration
+    for data in get_calibration_dataset(model, data_config):
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/olive/passes/pytorch/train_utils.py", line 292, in get_calibration_dataset
+    dataloader = data_config.to_data_container().create_dataloader()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/olive/data/container/data_container.py", line 46, in create_dataloader
+    dataset = self.load_dataset()
+              ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/olive/data/container/data_container.py", line 27, in load_dataset
+    return self.config.load_dataset(**self.config.load_dataset_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/olive/data/component/load_dataset.py", line 33, in huggingface_dataset
+    from datasets.utils.logging import disable_progress_bar, set_verbosity_error
+ModuleNotFoundError: No module named 'datasets'
+
+real	4m1.200s
+user	0m47.287s
+sys	1m4.540s
+Wed Nov 11 23:58:20 UTC 2026
