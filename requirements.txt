@@ -1,8 +1,10 @@
 olive-ai[cpu]==0.13.0
-onnxruntime-genai==0.19.0
+onnxruntime-genai==0.14.1
 guidance==0.3.1
 huggingface_hub==2.4.0
 pydantic>=2.0
 jsonschema
+requests
+peft
 ipykernel
 jupyterlab
